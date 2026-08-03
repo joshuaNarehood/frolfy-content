@@ -1,0 +1,231 @@
+{
+  "formatVersion": 2,
+  "$comment": "The Long Round — level packs. Schema in levels-schema.md. Seeds are CURATED: swept and certified by the Pack lab in course.html, not hand-picked. Wind is applied at runtime per hole (band/mph/from below); the certification is calm-air.",
+  "arc": {
+    "title": "The Long Round",
+    "premise": "The first disc ever thrown never landed. It is still riding the wind, and the wind it drags behind it is why nothing on this trail is ever calm. Each week you arrive where it just passed.",
+    "firstReleaseDate": "2026-08-01",
+    "weeks": 6,
+    "holesPerPack": 5,
+    "unlock": "Pack N+1 requires pack N beaten AND week N+1 released. Holes unlock sequentially inside a pack.",
+    "beaten": "Sum of strokes across all 5 holes <= target. Stars: 1 = finished, 2 = beat target, 3 = beat elite. Beaten packs unlock free replay of any hole."
+  },
+  "packs": [
+    {
+      "id": "p1",
+      "week": 1,
+      "scenery": "park",
+      "world": "Pine Park",
+      "title": "Where It Lifted",
+      "mechanic": "Crosswind reading — the preview stops helping at medium, so aiming off becomes yours.",
+      "intro": "It left from here, they say. The grass under the old stand is still combed flat in one direction.",
+      "packPar": 9,
+      "target": 11,
+      "holes": [
+        {
+          "n": 1,
+          "seed": "long-round#p1#h1o",
+          "name": "First Light",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "medium",
+            "mph": 14,
+            "from": 96
+          },
+          "beat": "The trail starts where the grass lies combed flat. A berm hides the pin; the wind wants your rise shot in the next county.",
+          "certified": "ideal 2/1 · 65m · standing→line · berm 8.4m"
+        },
+        {
+          "n": 2,
+          "seed": "long-round#p1#h2n",
+          "name": "The Bent Stand",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 17,
+            "from": 42
+          },
+          "beat": "Every pine on this hairpin leans the same way. Whatever came through wanted the straight line closed.",
+          "certified": "ideal 2/2 · 69m · drive→line · dogleg 0.85"
+        },
+        {
+          "n": 3,
+          "seed": "long-round#p1#h3l",
+          "name": "Understory",
+          "par": 2,
+          "brief": "pocket",
+          "wind": {
+            "band": "hard",
+            "mph": 15,
+            "from": 128
+          },
+          "beat": "The collar around this pin grew in a season. Nothing gets in sideways any more — the only way is down.",
+          "certified": "ideal 3/2 · 76m · flop→flop→spike · 5-prop collar r8.1"
+        },
+        {
+          "n": 4,
+          "seed": "long-round#p1#h4b",
+          "name": "The Clearing Gale",
+          "par": 3,
+          "brief": "bomber",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 4
+          },
+          "beat": "It passed low over this meadow, and the air never settled. Straight into its wake, off the raised pad, everything you have.",
+          "certified": "ideal 3/3 · 179m · drive→spike→line"
+        },
+        {
+          "n": 5,
+          "seed": "long-round#p1#h5g",
+          "name": "Keeper of the Park",
+          "par": 1,
+          "brief": "island",
+          "wind": {
+            "band": "hard",
+            "mph": 19,
+            "from": 262
+          },
+          "beat": "A ring of water where it touched down once — the only time it ever has. Land dead inside the ring, and you'll know how it felt.",
+          "certified": "ideal 2/1 · 33m · standing→flop · moat 7.1m wide"
+        }
+      ],
+      "$curation": "Seeds selected by the Pack lab in course.html (sweep of 16 candidates per hole, demand 1.15, park pinned, brief forced). Gates: story-fit floors (bend dogleg ≥ 0.7, ridge berm ≥ 6m), finishable by the analyser, every brief check green, par as authored. certified = the ideal round the analyser found in calm air; pack wind will cost real players more. Sweep date: 2026-08-02.",
+      "elite": 9,
+      "$tuning": "Retuned 2026-08-02 from real play, twice: the author shot 10 against an authored 22, so the lines came down to 16/12 and then to 11/9 — two stars at 11 or better, three at 9 or better, against a pack par of 9. Star lines are tuned off what a person actually shoots, never off par: par-anchored lines are participation trophies. Pars are Frolfy's 1/2/3 scale (the design generator's 3/4/5 shifted down two), so packPar is informational rather than a target."
+    },
+    {
+      "id": "p2",
+      "week": 2,
+      "scenery": "beach",
+      "world": "Kona Shore",
+      "title": "The Onshore Run",
+      "mechanic": "Crosswind shaping — every wind here comes off the sea sideways, and nothing reaches the pin on a straight line.",
+      "intro": "It went out over the water from this shore, and the water has been coming back ever since. Nothing here has grown straight in a hundred years.",
+      "packPar": 9,
+      "target": 10,
+      "elite": 8,
+      "holes": [
+        {
+          "n": 1,
+          "seed": "long-round#p2#h1a",
+          "name": "Trade Wind",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "medium",
+            "mph": 13,
+            "from": 84
+          },
+          "beat": "The palms on this point all lean inland, and none of them grew that way. Whatever went through bent the shore before it bent the trees.",
+          "certified": "ideal 2/2 calm · 3 in 13mph · 73m · dogleg 0.90"
+        },
+        {
+          "n": 2,
+          "seed": "long-round#p2#h2b",
+          "name": "The Dune Line",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "hard",
+            "mph": 16,
+            "from": 108
+          },
+          "beat": "A dune stood up overnight where the sand had lain flat for a century. The pin is somewhere on the far side of it.",
+          "certified": "ideal 2/1 calm · 2 in 16mph · 51m · berm 15.7m"
+        },
+        {
+          "n": 3,
+          "seed": "long-round#p2#h3k",
+          "name": "Sandbar",
+          "par": 1,
+          "brief": "island",
+          "wind": {
+            "band": "hard",
+            "mph": 18,
+            "from": 272
+          },
+          "beat": "The tide left this bar standing and then thought better of it. Land dead on it — there is nowhere to run out to.",
+          "certified": "ideal 2/1 calm · 1 in 18mph · 27m · moat 7.6m wide"
+        },
+        {
+          "n": 4,
+          "seed": "long-round#p2#h4g",
+          "name": "The Long Shore",
+          "par": 3,
+          "brief": "bomber",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 66
+          },
+          "beat": "The whole beach, end to end, in the wind that came off the water behind it. Off the pad, and spare nothing.",
+          "certified": "ideal 2/3 calm · 2 in 24mph · 162m"
+        },
+        {
+          "n": 5,
+          "seed": "long-round#p2#h5n",
+          "name": "Round the Point",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 17,
+            "from": 288
+          },
+          "beat": "The last of the shore turns back on itself here. Shape it round the point, or spend the afternoon in the sea grass.",
+          "certified": "ideal 2/2 calm · 2 in 17mph · 82m · dogleg 0.90"
+        }
+      ],
+      "$curation": "Seeds selected by the SWIFT Pack lab (scripts/sweep-pack), not the browser one: 16 candidates per hole, demand 1.15, beach pinned, brief forced. Same gates as pack 1's JS sweep (story-fit floors — bend dogleg >= 0.7, ridge berm >= 6m; brief's feature present in the built terrain; finishable by the ideal player) plus one the JS lab cannot run — finishable under the AUTHORED WIND, not just in calm air. certified = what the Swift harness measured, so it is directly comparable to LevelPackTests' log rather than to pack 1's JS receipts. Sweep date: 2026-08-03.",
+      "$tuning": "Pars are set from the measured ideal, not the other way round: at par 2 every certified ridge candidate was an ideal-player ace, so the berm hole is a par 1. Every hole's ideal now sits at or above its par. Harness ideal for the pack is 10 calm / 10 under authored wind. Star lines are PROVISIONAL and want a real-play retune the way pack 1 got one — on pack 1 the author shot 2 under the harness ideal, and target/elite ended at ideal-1 / ideal-3. Extrapolated here to target 10 / elite 8. Shoot the pack, then set them from that."
+    },
+    {
+      "id": "p3",
+      "week": 3,
+      "scenery": "farm",
+      "world": "Harvest Acres",
+      "title": "Against the Grain",
+      "mechanic": "Berms and tailwind traps — distance that looks free and is not.",
+      "packPar": 10,
+      "target": 23,
+      "holes": []
+    },
+    {
+      "id": "p4",
+      "week": 4,
+      "scenery": "city",
+      "world": "Concrete Loop",
+      "title": "The Narrows",
+      "mechanic": "Corridors — walls block from the ground up, and the wind funnels between them.",
+      "packPar": 9,
+      "target": 22,
+      "holes": []
+    },
+    {
+      "id": "p5",
+      "week": 5,
+      "scenery": "reef",
+      "world": "Coral Shelf",
+      "title": "Shallow Water",
+      "mechanic": "The flop — water everywhere, and only what lands dead stays dry.",
+      "packPar": 8,
+      "target": 21,
+      "holes": []
+    },
+    {
+      "id": "p6",
+      "week": 6,
+      "scenery": "volcano",
+      "world": "Ash Ridge",
+      "title": "Under It At Last",
+      "mechanic": "Everything, in a gale. Hole 30 is the disc itself.",
+      "packPar": 10,
+      "target": 22,
+      "holes": []
+    }
+  ]
+}
