@@ -192,9 +192,9 @@
       "mechanic": "Downwind trouble — the wind gives you distance you did not ask for, and every pin here has something waiting long.",
       "intro": "It came through low over the fields and the whole crop is still lying down behind it. The wind at your back is its wake, and it will take you further than you meant to go.",
       "packPar": 10,
-      "target": 12,
-      "elite": 10,
-      "contentRevision": 3,
+      "target": 9,
+      "elite": 7,
+      "contentRevision": 4,
       "demand": 1.35,
       "holes": [
         {
@@ -269,7 +269,7 @@
         }
       ],
       "$curation": "Re-authored 2026-08-03 after the first cut shipped and played easy. Swept by the Swift Pack lab (scripts/sweep-pack): 48 candidates per hole, demand 1.35, farm pinned, brief forced. Gates: the brief's feature present in the built terrain, the hairpin floor raised 0.70 -> 0.80 (farm's dogleg ceiling), finishable by the ideal player in calm air AND under the authored wind, and — new — every hole DEFENDED both ways: trouble past the pin (water, or cover standing in the 2-26m band behind it) and trouble short (water on the approach, or >= 3 blocking props over the last 45m). The bomber is a documented exception: that brief clears its own corridor, so it had 0 guarding props on all 48 candidates every sweep, and is gated on long trouble alone at a higher bar. Certification rates under the defence gate: ridge 8/48, pocket 48/48, bomber 11/48, island 48/48, bend 2/48.",
-      "$tuning": "The first cut was built on the idea that a tailwind starves the disc of lift and lands it short. It does not — measured through the real model, a 24mph tailwind adds ~15m to a drive (109.7 -> 124.8) and doubles a flop (28.5 -> 57.7). So the pack handed out free distance and the holes had nothing to charge for it, which is exactly how it played. The wind still comes from behind on every hole; what changed is that overshooting now costs. Note what the sweep turned up while gating this: the oval platform puts its rim 30-39m past the pin on EVERY hole this generator makes, so out of bounds never punishes an overthrow — long trouble has to be water or cover. Harness ideal is 13 calm / 12 under the authored wind against a pack par of 10, up from 11/11. Star lines 12/10 are PROVISIONAL at ideal-1 / ideal-3, which is where pack 1 landed after a real-play retune."
+      "$tuning": "The first cut was built on the idea that a tailwind starves the disc of lift and lands it short. It does not — measured through the real model, a 24mph tailwind adds ~15m to a drive (109.7 -> 124.8) and doubles a flop (28.5 -> 57.7). So the pack handed out free distance and the holes had nothing to charge for it, which is exactly how it played. The wind still comes from behind on every hole; what changed is that overshooting now costs. Note what the sweep turned up while gating this: the oval platform puts its rim 30-39m past the pin on EVERY hole this generator makes, so out of bounds never punishes an overthrow — long trouble has to be water or cover. Harness ideal is 13 calm / 12 under the authored wind against a pack par of 10. Star lines are 9 / 7, set BY THE AUTHOR rather than extrapolated: they sit 4 and 6 under the harness ideal, where packs 1 and 2 sit at ideal-1 / ideal-3. That is deliberate and it is the tightest pack in the arc — note two stars is also the gate on pack 4, so if 9 proves out of reach the fix is to loosen it here rather than to grind."
     },
     {
       "id": "p4",
