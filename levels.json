@@ -189,16 +189,17 @@
       "scenery": "farm",
       "world": "Harvest Acres",
       "title": "Against the Grain",
-      "mechanic": "Berms and tailwind traps — the wind is behind you the whole way and it takes distance rather than giving it.",
-      "intro": "It came through low over the fields and the whole crop is still lying down behind it. The wind at your back here is its wake, and a wake carries nothing.",
+      "mechanic": "Downwind trouble — the wind gives you distance you did not ask for, and every pin here has something waiting long.",
+      "intro": "It came through low over the fields and the whole crop is still lying down behind it. The wind at your back is its wake, and it will take you further than you meant to go.",
       "packPar": 10,
-      "target": 10,
-      "elite": 8,
-      "contentRevision": 2,
+      "target": 12,
+      "elite": 10,
+      "contentRevision": 3,
+      "demand": 1.35,
       "holes": [
         {
           "n": 1,
-          "seed": "long-round#p3#h1e",
+          "seed": "long-round#p3#h1an",
           "name": "The First Furrow",
           "par": 2,
           "brief": "ridge",
@@ -207,12 +208,12 @@
             "mph": 14,
             "from": 168
           },
-          "beat": "The first furrow points the way it went. A berm stands across it that was not ploughed there, and the pin is on the far side.",
-          "certified": "ideal 2/2 calm · 2 in 14mph · 114m · berm 13.6m"
+          "beat": "The first furrow points the way it went. A berm stands across it that was not ploughed there, and the hedge behind the pin is thicker than it looks from here.",
+          "certified": "ideal 3/2 calm · 2 in 14mph · 100m · berm 16.6m · 10 behind · 3 guarding"
         },
         {
           "n": 2,
-          "seed": "long-round#p3#h2c",
+          "seed": "long-round#p3#h2ap",
           "name": "Silo Corner",
           "par": 1,
           "brief": "pocket",
@@ -221,40 +222,40 @@
             "mph": 17,
             "from": 150
           },
-          "beat": "Everything the wind pulled off the fields ended up banked in this corner. The pin is somewhere inside it — you will have to come down on top.",
-          "certified": "ideal 2/1 calm · 2 in 17mph · 52m · 7-prop collar r6.7"
+          "beat": "Everything the wind pulled off the fields ended up banked in this corner. Short of it is no good and through it is worse — you will have to come down on top.",
+          "certified": "ideal 3/1 calm · 3 in 17mph · 61m · 6-prop collar r6.7 · 5 behind · 8 guarding"
         },
         {
           "n": 3,
-          "seed": "long-round#p3#h3m",
+          "seed": "long-round#p3#h3aj",
           "name": "The Back Forty",
           "par": 3,
           "brief": "bomber",
           "wind": {
-            "band": "gale",
-            "mph": 24,
+            "band": "hard",
+            "mph": 20,
             "from": 190
           },
-          "beat": "The long field, with the gale square behind you. It will feel like a gift right up until the disc stops climbing.",
-          "certified": "ideal 3/3 calm · 3 in 24mph · 147m"
+          "beat": "The long field, with the wind square behind you. It will feel like a gift for about two seconds longer than it should.",
+          "certified": "ideal 2/3 calm · 2 in 20mph · 162m · 8 behind"
         },
         {
           "n": 4,
-          "seed": "long-round#p3#h4p",
-          "name": "Windrow",
+          "seed": "long-round#p3#h4d",
+          "name": "The Stock Pond",
           "par": 2,
-          "brief": "ridge",
+          "brief": "island",
           "wind": {
-            "band": "hard",
-            "mph": 16,
-            "from": 172
+            "band": "gale",
+            "mph": 24,
+            "from": 176
           },
-          "beat": "A windrow the height of a barn, raked up in one night by something that did not stop to do it. Over it, and hold the line on the other side.",
-          "certified": "ideal 2/2 calm · 2 in 16mph · 79m · berm 16.3m"
+          "beat": "They watered the whole west field out of this pond and it has been standing ever since. The green sits in the middle of it, and the gale is behind you.",
+          "certified": "ideal 3/2 calm · 3 in 24mph · 70m · moat 6.8m wide · water 8m long · wet approach · 2 guarding"
         },
         {
           "n": 5,
-          "seed": "long-round#p3#h5b",
+          "seed": "long-round#p3#h5t",
           "name": "The Turning Row",
           "par": 2,
           "brief": "bend",
@@ -263,12 +264,12 @@
             "mph": 18,
             "from": 204
           },
-          "beat": "The rows turn at the fence line and so did it. Follow it round — the straight way out of here is a hedge.",
-          "certified": "ideal 2/2 calm · 2 in 18mph · 84m · dogleg 0.70"
+          "beat": "The rows turn at the fence line and so did it. The wind will happily carry you straight on into the ditch on the outside of the corner.",
+          "certified": "ideal 2/2 calm · 2 in 18mph · 88m · dogleg 0.80 · 10 behind · 5 guarding · wet approach"
         }
       ],
-      "$curation": "Seeds selected by the SWIFT Pack lab (scripts/sweep-pack), not the browser one: 16 candidates per hole, demand 1.15, farm pinned, brief forced. Same gates as pack 2 — story-fit floors (bend dogleg >= 0.7, ridge berm >= 6m), the brief's feature present in the built terrain, finishable by the ideal player in calm air AND under the authored wind. Every hole certified 16/16 except the bend (5/16 — the dogleg floor is what rejects the rest). certified = what the Swift harness measured, directly comparable to LevelPackTests' log. Sweep date: 2026-08-03.",
-      "$tuning": "Every wind is behind the player (bearings 150-204) because that is the pack's lie: a tailwind starves the disc of lift, so it drops out of glide early and lands short of where it looks like it is going. Pars are set from the measured ideal, not the reverse — the harness ideal is 11 calm and 11 under the authored wind, against a pack par of 10, so no hole is an ideal-player ace. Star lines are PROVISIONAL at ideal-1 / ideal-3, which is where pack 1 landed after a real-play retune. Shoot the pack, then set them from that."
+      "$curation": "Re-authored 2026-08-03 after the first cut shipped and played easy. Swept by the Swift Pack lab (scripts/sweep-pack): 48 candidates per hole, demand 1.35, farm pinned, brief forced. Gates: the brief's feature present in the built terrain, the hairpin floor raised 0.70 -> 0.80 (farm's dogleg ceiling), finishable by the ideal player in calm air AND under the authored wind, and — new — every hole DEFENDED both ways: trouble past the pin (water, or cover standing in the 2-26m band behind it) and trouble short (water on the approach, or >= 3 blocking props over the last 45m). The bomber is a documented exception: that brief clears its own corridor, so it had 0 guarding props on all 48 candidates every sweep, and is gated on long trouble alone at a higher bar. Certification rates under the defence gate: ridge 8/48, pocket 48/48, bomber 11/48, island 48/48, bend 2/48.",
+      "$tuning": "The first cut was built on the idea that a tailwind starves the disc of lift and lands it short. It does not — measured through the real model, a 24mph tailwind adds ~15m to a drive (109.7 -> 124.8) and doubles a flop (28.5 -> 57.7). So the pack handed out free distance and the holes had nothing to charge for it, which is exactly how it played. The wind still comes from behind on every hole; what changed is that overshooting now costs. Note what the sweep turned up while gating this: the oval platform puts its rim 30-39m past the pin on EVERY hole this generator makes, so out of bounds never punishes an overthrow — long trouble has to be water or cover. Harness ideal is 13 calm / 12 under the authored wind against a pack par of 10, up from 11/11. Star lines 12/10 are PROVISIONAL at ideal-1 / ideal-3, which is where pack 1 landed after a real-play retune."
     },
     {
       "id": "p4",
