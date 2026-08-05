@@ -453,10 +453,87 @@
       "scenery": "volcano",
       "world": "Ash Ridge",
       "title": "Under It At Last",
-      "mechanic": "Everything, in a gale. Hole 30 is the disc itself.",
-      "packPar": 10,
-      "target": 22,
-      "holes": []
+      "mechanic": "Everything, one brief each — and the mountain charges across the line, not into it.",
+      "intro": "It has been circling the mountain all week, riding the heat off the caldera. Tonight it comes low enough to touch. Every wind up here is the wind it drags round behind it, and it comes at you sideways.",
+      "packPar": 9,
+      "target": 11,
+      "elite": 9,
+      "contentRevision": 2,
+      "demand": 1.35,
+      "holes": [
+        {
+          "n": 1,
+          "seed": "long-round#p6#h1y",
+          "name": "The Cinder Road",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 17,
+            "from": 224
+          },
+          "beat": "The old road up the mountain switches back where the flow cut it. It went around — nothing that tried to go straight is still standing, and eleven of them are still in your way.",
+          "certified": "ideal 3/2 calm · 2 in 17mph · 99m · dogleg 0.90 · 5 behind · 11 guarding"
+        },
+        {
+          "n": 2,
+          "seed": "long-round#p6#h2ap",
+          "name": "The Fumarole",
+          "par": 2,
+          "brief": "pocket",
+          "wind": {
+            "band": "hard",
+            "mph": 19,
+            "from": 262
+          },
+          "beat": "A collar of rock grew around the one vent that never stopped breathing. Nothing gets in sideways, and sideways is the only thing the wind is offering — drop yours down the throat.",
+          "certified": "ideal 2/2 calm · 2 in 19mph · 77m · 6-prop collar r7.0 · 9 behind · 7 guarding"
+        },
+        {
+          "n": 3,
+          "seed": "long-round#p6#h3aa",
+          "name": "The Ash Wall",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "hard",
+            "mph": 21,
+            "from": 288
+          },
+          "beat": "The last eruption threw up a wall of ash nineteen metres high and the wind has been sharpening it ever since. The pin sits in its lee, out of sight until you have already committed.",
+          "certified": "ideal 2/1 calm · 2 in 21mph · 49m · berm 19.2m · 10 behind · 9 guarding"
+        },
+        {
+          "n": 4,
+          "seed": "long-round#p6#h4f",
+          "name": "The Caldera Run",
+          "par": 2,
+          "brief": "bomber",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 66
+          },
+          "beat": "The long straight over the shoulder of the mountain, into the heat and the gale riding round it. It flies this line every night. Tonight you fly it too, and the gale is across you the whole way.",
+          "certified": "ideal 2/2 calm · 2 in 24mph · 137m · 6 behind · 3 guarding"
+        },
+        {
+          "n": 5,
+          "seed": "long-round#p6#h5ao",
+          "name": "Under It At Last",
+          "par": 2,
+          "brief": "island",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 96
+          },
+          "beat": "A green in a ring of lava, dead under where it circles. Nine metres past the pin the ground stops being ground. Put your disc down where it never has — and then look up.",
+          "certified": "ideal 2/2 calm · 2 in 24mph · 50m · moat 5.6m wide · lava 9m long · 6 behind · 10 guarding · wet approach"
+        }
+      ],
+      "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack p6): 48 candidates per hole, demand 1.35, volcano pinned, brief forced, certified in calm air AND under the authored wind, and DEFENDED both ways. The finale plays ALL FIVE briefs, one each. Certification rates: bend par 2 13/48, pocket par 2 47/48, ridge par 1 28/48, bomber par 2 4/48, island par 2 48/48. The bomber was authored par 3 and re-swept as a par 2: at par 3 exactly one candidate in 48 certified and the ideal player went round it in 2, the same no-information tell that dropped pack 2's ridge and pack 5's island a rung. Volcano is the hardest scenery in the arc to deal a bomber on (the scout certifies 1-4 of 32 at every par) because that brief clears a corridor and this mountain's defence is what stands in it; the winner is the only one of the four that clears the general defended gate rather than the bomber's raised long-trouble exemption. No gate was softened for this pack: volcano clears pack 3's defended gate on its own props (10-26 blockers guard a typical approach) and pack 3's story-fit floors untouched (dogleg 0.80-0.95, berms 16-19m). The moat and the dealt lake are both LAVA here (the scenery-coherence pass), so 'wet' in these receipts is the mountain's own hazard. Sweep date: 2026-08-05.",
+      "$tuning": "WINDS ARE CROSSWINDS, and that is a measurement rather than a mood. The design project authored the finale as a dead headwind from 0 degrees — the thing overhead comes low and you throw straight into it — and scripts/sweep-pack's `wind` probe puts the ideal player at 1.58 into a volcano headwind and 1.54 with it, against 2.06 across the line either way. This mountain is reef's shape, not city's. So the bearings march round the compass (224 -> 262 -> 288 -> 66 -> 96) because the thing is circling, and every one of them sits on or near a cross axis because that is where volcano actually charges. That is the third time the arc has assumed a wind direction and been wrong; the probe is cheaper than the re-author. TWO GALES — the bomber set piece and hole 30 itself — are the one deliberate break of the arc's one-gale rule, and this is the pack that gets to break it. Harness ideal is 11 calm / 10 under the authored wind against a pack par of 9. Star lines 11 / 9 are PROVISIONAL at target = calm ideal, elite = ideal-2 — packs 2 and 4's shape for unplayed content, not pack 3's author-tightened one. If the finale proves cruel, loosen target before softening the winds: the winds are the only thing here that was measured."
     }
   ]
 }
