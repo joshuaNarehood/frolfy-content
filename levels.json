@@ -277,10 +277,87 @@
       "scenery": "city",
       "world": "Concrete Loop",
       "title": "The Narrows",
-      "mechanic": "Corridors — walls block from the ground up, and the wind funnels between them.",
+      "mechanic": "Corridors — walls block from the ground up, and the funnelled wind comes back down them at you.",
+      "intro": "It came through at head height and every window on the block is still ringing. The wind it dragged in has nowhere to go but between the buildings, and between the buildings is where you are throwing.",
       "packPar": 9,
-      "target": 22,
-      "holes": []
+      "target": 10,
+      "elite": 8,
+      "contentRevision": 2,
+      "demand": 1.35,
+      "holes": [
+        {
+          "n": 1,
+          "seed": "long-round#p4#h1q",
+          "name": "Off the Curb",
+          "par": 2,
+          "brief": "pocket",
+          "wind": {
+            "band": "medium",
+            "mph": 14,
+            "from": 4
+          },
+          "beat": "Straight off the kerb and into it. The pin sits in a ring of planters and street furniture, and the wind is coming up the street to meet you.",
+          "certified": "ideal 3/2 calm · 3 in 14mph · 76m · 6-prop collar r6.4 · 5 behind · 7 guarding · wet approach"
+        },
+        {
+          "n": 2,
+          "seed": "long-round#p4#h2ar",
+          "name": "The Service Ramp",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "hard",
+            "mph": 17,
+            "from": 350
+          },
+          "beat": "The ramp banks up across the whole lane and the pin is somewhere behind it. Into this wind a rise shot stops being a rise shot about halfway up.",
+          "certified": "ideal 2/1 calm · 3 in 17mph · 55m · berm 15.1m · 7 behind · 5 guarding"
+        },
+        {
+          "n": 3,
+          "seed": "long-round#p4#h3am",
+          "name": "The Avenue",
+          "par": 3,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 20,
+            "from": 8
+          },
+          "beat": "Four blocks of it, and it turns hard at the end. The wind funnels the whole length square in your face — you will not get there in one, and it will let you believe you might.",
+          "certified": "ideal 2/3 calm · 2 in 20mph · 133m · dogleg 1.20 · 5 behind · 5 guarding"
+        },
+        {
+          "n": 4,
+          "seed": "long-round#p4#h4u",
+          "name": "The Flooded Lot",
+          "par": 2,
+          "brief": "island",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 0
+          },
+          "beat": "The lot flooded years ago and nobody drained it. What is left standing in the middle is the green, the gale is straight down the throat of it, and there is water waiting eight metres past the pin.",
+          "certified": "ideal 2/2 calm · 4 in 24mph · 57m · moat 7.6m wide · water 8m long · 7 behind · 6 guarding · wet approach"
+        },
+        {
+          "n": 5,
+          "seed": "long-round#p4#h5k",
+          "name": "Hairpin Alley",
+          "par": 1,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 18,
+            "from": 272
+          },
+          "beat": "It doubles back on itself between two walls. This one is not into the wind — it is across it, and the gust comes out of the side street at exactly the wrong moment.",
+          "certified": "ideal 2/1 calm · 2 in 18mph · 59m · dogleg 1.10 · 5 behind · 11 guarding"
+        }
+      ],
+      "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack): 48 candidates per hole, demand 1.35, city pinned, brief forced, every hole certified finishable by the ideal player in calm air AND under its authored wind, and DEFENDED both ways. Certification rates: pocket 48/48, ridge 25/48, bend par 3 14/48, island 48/48, bend par 1 17/48. NO BOMBER, and that is structural rather than a preference: city certified 2/48 on that brief and 0/48 at par 3, because the bomber's job is to clear a corridor and this scenery's entire defence is the corridor. The long hole is a long bend instead. Sweep date: 2026-08-04.",
+      "$tuning": "The wind is the headwind, and it is measured rather than assumed — scripts/sweep-pack's `wind` probe puts the ideal player at 2.33 strokes into it against 1.98 with it in this scenery, with a left-hand crosswind at 2.35, which is why hole 5 turns across the gust instead of into it. Harness ideal is 11 calm / 14 under the authored wind against a pack par of 9. Star lines 10/8 are PROVISIONAL and sit at ideal−1 / ideal−3, the shape packs 1 and 2 shipped at, because nobody has played this pack yet: pack 3's tighter 9/7 was set by an author who had. Retune from real play, and note two stars here is the gate on pack 5 — if 10 proves out of reach the fix is to loosen it, not to grind."
     },
     {
       "id": "p5",
@@ -288,10 +365,87 @@
       "scenery": "reef",
       "world": "Coral Shelf",
       "title": "Shallow Water",
-      "mechanic": "The flop — water everywhere, and only what lands dead stays dry.",
-      "packPar": 8,
-      "target": 21,
-      "holes": []
+      "mechanic": "The flop — short holes walled in coral, and a crossing current that taxes anything you leave hanging.",
+      "intro": "It went out over the water and it did not come down. The shelf below is where the sea kept the sound of it, and down here the current does the work the wind used to.",
+      "packPar": 7,
+      "target": 8,
+      "elite": 6,
+      "contentRevision": 2,
+      "demand": 1.35,
+      "holes": [
+        {
+          "n": 1,
+          "seed": "long-round#p5#h1ag",
+          "name": "The Shallows",
+          "par": 2,
+          "brief": "pocket",
+          "wind": {
+            "band": "medium",
+            "mph": 13,
+            "from": 96
+          },
+          "beat": "The shelf comes up almost to the surface here and the pin sits in a bowl of it. Fifteen heads of coral stand behind the basket — running the disc out is not a miss you get back.",
+          "certified": "ideal 2/2 calm · 2 in 13mph · 72m · 6-prop collar r7.1 · 15 behind · 10 guarding"
+        },
+        {
+          "n": 2,
+          "seed": "long-round#p5#h2ah",
+          "name": "Fan Wall",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "hard",
+            "mph": 17,
+            "from": 264
+          },
+          "beat": "A wall of fan coral stands across the whole line and the pin is behind it. Short and blind, so the shot is all height — and height is exactly what the current is charging for.",
+          "certified": "ideal 1/1 calm · 2 in 17mph · 39m · berm 18.6m · 23 behind · 9 guarding"
+        },
+        {
+          "n": 3,
+          "seed": "long-round#p5#h3f",
+          "name": "The Blue Hole",
+          "par": 1,
+          "brief": "island",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 88
+          },
+          "beat": "The shelf just stops. What is left is a pillar of coral with the basket on it and the trench going down all the way round, and the current across it is at its worst.",
+          "certified": "ideal 2/1 calm · 2 in 24mph · 31m · moat 5.6m wide · water 9m long · 16 behind · 10 guarding · wet approach"
+        },
+        {
+          "n": 4,
+          "seed": "long-round#p5#h4r",
+          "name": "Staghorn Gap",
+          "par": 1,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 18,
+            "from": 276
+          },
+          "beat": "A gap in the staghorn, and it bends the moment you are through it. Sixteen heads guard the last stretch and the current is pushing you into every one of them.",
+          "certified": "ideal 2/1 calm · 3 in 18mph · 40m · dogleg 0.85 · 15 behind · 16 guarding"
+        },
+        {
+          "n": 5,
+          "seed": "long-round#p5#h5u",
+          "name": "The Long Shelf",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 20,
+            "from": 100
+          },
+          "beat": "The long run out along the edge of the shelf, curving the whole way. It is the one hole down here with room to throw, and the current has the whole flight to work on you.",
+          "certified": "ideal 2/2 calm · 2 in 20mph · 109m · dogleg 1.10 · 6 behind · 3 guarding"
+        }
+      ],
+      "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack): 48 candidates per hole, demand 1.35, reef pinned, brief forced, certified in calm air AND under the authored wind, and DEFENDED both ways. Certification rates: pocket 46/48, ridge 27/48, island 48/48, bend par 1 14/48, bend par 2 18/48. Hole 3 was authored par 2 and re-swept as a par 1: all 48 certified candidates at par 2 were an ideal-player ace, so the par carried no information — the same tell that made pack 2's ridge a par 1 — and the par-1 brief deals a different, harder set of holes (ideal 2). Reef has NO LAKE (BiomeCatalog gives it lake 0.0...0.0, it being a submerged scenery), so the only water a reef hole can carve is an island's own moat; every other hole here is defended by coral, which reef has more of than any other scenery (55-100 props). Sweep date: 2026-08-04.",
+      "$tuning": "The stub sold this pack as \"water everywhere\", and reef cannot deal that — see the curation note. The mechanic is the other half of what the stub said, the flop, and the current is a CROSSING one because that is what actually costs here: scripts/sweep-pack's `wind` probe puts the ideal player at 1.90/2.04 across the line against 1.42/1.46 along it, the opposite of the arc's assumption that the headwind is always the punishing direction. These holes are short, so drift beats carry. Pack 2 is nominally the crosswind pack but is asking a different question — aim-off on a long bend, against hang time on a short drop, and a flop is the shot that hangs. Harness ideal is 9 calm / 11 under the authored wind against a pack par of 7. Star lines 8/6 are PROVISIONAL at ideal−1 / ideal−3, same reasoning as pack 4: unplayed content gets the pack 1/2 shape, not pack 3's author-tightened one."
     },
     {
       "id": "p6",
