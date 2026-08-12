@@ -6,9 +6,9 @@
     "premise": "The first disc ever thrown never landed. It is still riding the wind, and the wind it drags behind it is why nothing on this trail is ever calm. Each week you arrive where it just passed.",
     "firstReleaseDate": "2026-08-01",
     "weeks": 6,
-    "holesPerPack": 5,
-    "unlock": "Pack N+1 requires pack N beaten AND week N+1 released. Holes unlock sequentially inside a pack.",
-    "beaten": "Sum of strokes across all 5 holes <= target. Stars: 1 = finished, 2 = beat target, 3 = beat elite. Beaten packs unlock free replay of any hole."
+    "holesPerPack": 10,
+    "unlock": "Pack N+1 requires pack N beaten. Holes unlock sequentially inside a pack, and a pack's back five opens once its front five has been finished once.",
+    "beaten": "Sum of every half's best <= target, so a ten-hole pack scores nothing until both halves have been finished once. Stars: 1 = finished, 2 = beat target, 3 = beat elite. Beaten packs unlock free replay of any hole."
   },
   "packs": [
     {
@@ -19,8 +19,8 @@
       "title": "Where It Lifted",
       "mechanic": "Crosswind reading — the preview stops helping at medium, so aiming off becomes yours.",
       "intro": "It left from here, they say. The grass under the old stand is still combed flat in one direction.",
-      "packPar": 9,
-      "target": 11,
+      "packPar": 18,
+      "target": 25,
       "holes": [
         {
           "n": 1,
@@ -91,11 +91,82 @@
           },
           "beat": "A ring of water where it touched down once — the only time it ever has. Land dead inside the ring, and you'll know how it felt.",
           "certified": "ideal 2/1 · 33m · standing→flop · moat 7.1m wide"
+        },
+        {
+          "n": 6,
+          "seed": "long-round#p1#h6u",
+          "name": "The Combed Green",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "medium",
+            "mph": 13,
+            "from": 78
+          },
+          "beat": "Past the old stand the grass turns with the path, all of it combed the same way. Follow the lean of it round — the straight line was never mown.",
+          "certified": "ideal 3/4 · 92m · standing→standing→line · dogleg 0.85"
+        },
+        {
+          "n": 7,
+          "seed": "long-round#p1#h7ai",
+          "name": "Rainshadow",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "hard",
+            "mph": 16,
+            "from": 102
+          },
+          "beat": "It rains on one side of this berm and never on the other. The pin keeps to the dry side, out of sight.",
+          "certified": "ideal 2/3 · 70m · standing→line · berm 9.1m"
+        },
+        {
+          "n": 8,
+          "seed": "long-round#p1#h8q",
+          "name": "The Old Stand",
+          "par": 2,
+          "brief": "pocket",
+          "wind": {
+            "band": "hard",
+            "mph": 17,
+            "from": 140
+          },
+          "beat": "The oldest pines in the park closed ranks the day it left. Nothing gets in under the boughs any more — over the top is all they allow.",
+          "certified": "ideal 3/4 · 63m · line→flop→spike · 7-prop collar r8.2"
+        },
+        {
+          "n": 9,
+          "seed": "long-round#p1#h9k",
+          "name": "Night Gale",
+          "par": 3,
+          "brief": "bomber",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 352
+          },
+          "beat": "After dark the park empties and the wind comes back to practise. The long meadow, straight into it, with nothing to hold onto.",
+          "certified": "ideal 4/5 · 156m · drive→drive→line→drive"
+        },
+        {
+          "n": 10,
+          "seed": "long-round#p1#h10q",
+          "name": "Where It Rested",
+          "par": 1,
+          "brief": "island",
+          "wind": {
+            "band": "hard",
+            "mph": 18,
+            "from": 268
+          },
+          "beat": "They say it set down on this green once, for a moment, before the wind called it back. Rest yours where it couldn't.",
+          "certified": "ideal 2/3 · 39m · spike→flop · moat 7.2m wide"
         }
       ],
       "$curation": "Seeds selected by the Pack lab in course.html (sweep of 16 candidates per hole, demand 1.15, park pinned, brief forced). Gates: story-fit floors (bend dogleg ≥ 0.7, ridge berm ≥ 6m), finishable by the analyser, every brief check green, par as authored. certified = the ideal round the analyser found in calm air; pack wind will cost real players more. Sweep date: 2026-08-02.",
-      "elite": 9,
-      "$tuning": "Retuned 2026-08-02 from real play, twice: the author shot 10 against an authored 22, so the lines came down to 16/12 and then to 11/9 — two stars at 11 or better, three at 9 or better, against a pack par of 9. Star lines are tuned off what a person actually shoots, never off par: par-anchored lines are participation trophies. Pars are Frolfy's 1/2/3 scale (the design generator's 3/4/5 shifted down two), so packPar is informational rather than a target."
+      "elite": 21,
+      "$tuning": "Retuned 2026-08-02 from real play, twice: the author shot 10 against an authored 22, so the lines came down to 16/12 and then to 11/9 — two stars at 11 or better, three at 9 or better, against a pack par of 9. Star lines are tuned off what a person actually shoots, never off par: par-anchored lines are participation trophies. Pars are Frolfy's 1/2/3 scale (the design generator's 3/4/5 shifted down two), so packPar is informational rather than a target. Ten holes since 2026-08-11: front five frozen, back five from the design lab. packPar 18 (front 9 + back 9). Star lines design (front five identical).",
+      "contentRevision": 2
     },
     {
       "id": "p2",
@@ -105,9 +176,9 @@
       "title": "The Onshore Run",
       "mechanic": "Crosswind shaping — every wind here comes off the sea sideways, and nothing reaches the pin on a straight line.",
       "intro": "It went out over the water from this shore, and the water has been coming back ever since. Nothing here has grown straight in a hundred years.",
-      "packPar": 9,
-      "target": 10,
-      "elite": 8,
+      "packPar": 18,
+      "target": 23,
+      "elite": 19,
       "holes": [
         {
           "n": 1,
@@ -178,10 +249,81 @@
           },
           "beat": "The last of the shore turns back on itself here. Shape it round the point, or spend the afternoon in the sea grass.",
           "certified": "ideal 2/2 calm · 2 in 17mph · 82m · dogleg 0.90"
+        },
+        {
+          "n": 6,
+          "seed": "long-round#p2#h6e",
+          "name": "The Second Shore",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "medium",
+            "mph": 13,
+            "from": 96
+          },
+          "beat": "Behind the beach there is another beach, older, that the sea gave up on. A dune stands across it that remembers the day it went out.",
+          "certified": "ideal 2/3 · 61m · standing→line · berm 8.0m"
+        },
+        {
+          "n": 7,
+          "seed": "long-round#p2#h7ah",
+          "name": "Undertow",
+          "par": 1,
+          "brief": "island",
+          "wind": {
+            "band": "hard",
+            "mph": 17,
+            "from": 276
+          },
+          "beat": "The water here pulls back before it takes. A bar of dry sand in the middle of the pull — land dead on it or go with the tide.",
+          "certified": "ideal 2/3 · 42m · spike→flop · moat 7.8m wide"
+        },
+        {
+          "n": 8,
+          "seed": "long-round#p2#h8ao",
+          "name": "Sea Grass",
+          "par": 2,
+          "brief": "pocket",
+          "wind": {
+            "band": "hard",
+            "mph": 16,
+            "from": 112
+          },
+          "beat": "The grass grew into the eddy it left going out, a ring with the pin at the bottom. Nothing gets in sideways — drop it through.",
+          "certified": "ideal 3/4 · 69m · flop→line→spike · 6-prop collar r7.9"
+        },
+        {
+          "n": 9,
+          "seed": "long-round#p2#h9x",
+          "name": "The Headland Gale",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 288
+          },
+          "beat": "The last point before open water, and the gale comes round it sideways. Shape it round the head or lose it to the sea.",
+          "certified": "ideal 3/4 · 63m · standing→line→line · dogleg 0.90"
+        },
+        {
+          "n": 10,
+          "seed": "long-round#p2#h10ac",
+          "name": "Out Past the Break",
+          "par": 3,
+          "brief": "bomber",
+          "wind": {
+            "band": "hard",
+            "mph": 19,
+            "from": 72
+          },
+          "beat": "The longest run of sand on the shore, out past where the waves give up. Everything you have, and then the walk.",
+          "certified": "ideal 3/5 · 154m · drive→line→line"
         }
       ],
       "$curation": "Seeds selected by the SWIFT Pack lab (scripts/sweep-pack), not the browser one: 16 candidates per hole, demand 1.15, beach pinned, brief forced. Same gates as pack 1's JS sweep (story-fit floors — bend dogleg >= 0.7, ridge berm >= 6m; brief's feature present in the built terrain; finishable by the ideal player) plus one the JS lab cannot run — finishable under the AUTHORED WIND, not just in calm air. certified = what the Swift harness measured, so it is directly comparable to LevelPackTests' log rather than to pack 1's JS receipts. Sweep date: 2026-08-03.",
-      "$tuning": "Pars are set from the measured ideal, not the other way round: at par 2 every certified ridge candidate was an ideal-player ace, so the berm hole is a par 1. Every hole's ideal now sits at or above its par. Harness ideal for the pack is 10 calm / 10 under authored wind. Star lines are PROVISIONAL and want a real-play retune the way pack 1 got one — on pack 1 the author shot 2 under the harness ideal, and target/elite ended at ideal-1 / ideal-3. Extrapolated here to target 10 / elite 8. Shoot the pack, then set them from that."
+      "$tuning": "Pars are set from the measured ideal, not the other way round: at par 2 every certified ridge candidate was an ideal-player ace, so the berm hole is a par 1. Every hole's ideal now sits at or above its par. Harness ideal for the pack is 10 calm / 10 under authored wind. Star lines are PROVISIONAL and want a real-play retune the way pack 1 got one — on pack 1 the author shot 2 under the harness ideal, and target/elite ended at ideal-1 / ideal-3. Extrapolated here to target 10 / elite 8. Shoot the pack, then set them from that. Ten holes since 2026-08-11: front five frozen, back five from the design lab. packPar 18 (front 9 + back 9). Star lines design (front five identical).",
+      "contentRevision": 2
     },
     {
       "id": "p3",
@@ -191,10 +333,10 @@
       "title": "Against the Grain",
       "mechanic": "Downwind trouble — the wind gives you distance you did not ask for, and every pin here has something waiting long.",
       "intro": "It came through low over the fields and the whole crop is still lying down behind it. The wind at your back is its wake, and it will take you further than you meant to go.",
-      "packPar": 10,
-      "target": 9,
-      "elite": 7,
-      "contentRevision": 4,
+      "packPar": 19,
+      "target": 21,
+      "elite": 17,
+      "contentRevision": 5,
       "demand": 1.35,
       "holes": [
         {
@@ -266,10 +408,80 @@
           },
           "beat": "The rows turn at the fence line and so did it. The wind will happily carry you straight on into the ditch on the outside of the corner.",
           "certified": "ideal 2/2 calm · 2 in 18mph · 88m · dogleg 0.80 · 10 behind · 5 guarding · wet approach"
+        },
+        {
+          "n": 6,
+          "seed": "long-round#p3#h6y",
+          "name": "The Gleaning",
+          "par": 1,
+          "brief": "pocket",
+          "wind": {
+            "band": "medium",
+            "mph": 14,
+            "from": 162
+          },
+          "beat": "What the harvest missed, the wind banked into this corner. Come down on top of it — short is no good and through is worse.",
+          "certified": "ideal 2/3 · 57m · line→flop · 6-prop collar r8.2 · 3 behind · 7 guarding · wet approach"
+        },
+        {
+          "n": 7,
+          "seed": "long-round#p3#h7ap",
+          "name": "Hedgerow",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 17,
+            "from": 186
+          },
+          "beat": "The hedge turned where it turned, and a hundred seasons thickened the corner. The wind will carry you straight on into it.",
+          "certified": "ideal 2/4 · 85m · drive→line · dogleg 0.80"
+        },
+        {
+          "n": 8,
+          "seed": "long-round#p3#h8j",
+          "name": "The Windmill",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "hard",
+            "mph": 18,
+            "from": 172
+          },
+          "beat": "They built the mill to use the wind and the wind used it back — the mound it stands on wasn't there before. The pin is in its lee.",
+          "certified": "ideal 2/3 · 61m · standing→line · berm 8.1m"
+        },
+        {
+          "n": 9,
+          "seed": "long-round#p3#h9aq",
+          "name": "The Flooded Acre",
+          "par": 2,
+          "brief": "island",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 168
+          },
+          "beat": "The gale behind you, the drowned field ahead. The green is the one dry acre left, and past it the water starts again.",
+          "certified": "ideal 3/4 · 74m · flop→spike→flop · moat 7.5m wide · water 8m long · wet approach"
+        },
+        {
+          "n": 10,
+          "seed": "long-round#p3#h10p",
+          "name": "The Last Load",
+          "par": 3,
+          "brief": "bomber",
+          "wind": {
+            "band": "hard",
+            "mph": 20,
+            "from": 196
+          },
+          "beat": "The last field of the farm, the wind square behind, the barn doors open at the end. It will feel like a gift, and you know better now.",
+          "certified": "ideal 3/5 · 195m · drive→drive→line"
         }
       ],
       "$curation": "Re-authored 2026-08-03 after the first cut shipped and played easy. Swept by the Swift Pack lab (scripts/sweep-pack): 48 candidates per hole, demand 1.35, farm pinned, brief forced. Gates: the brief's feature present in the built terrain, the hairpin floor raised 0.70 -> 0.80 (farm's dogleg ceiling), finishable by the ideal player in calm air AND under the authored wind, and — new — every hole DEFENDED both ways: trouble past the pin (water, or cover standing in the 2-26m band behind it) and trouble short (water on the approach, or >= 3 blocking props over the last 45m). The bomber is a documented exception: that brief clears its own corridor, so it had 0 guarding props on all 48 candidates every sweep, and is gated on long trouble alone at a higher bar. Certification rates under the defence gate: ridge 8/48, pocket 48/48, bomber 11/48, island 48/48, bend 2/48.",
-      "$tuning": "The first cut was built on the idea that a tailwind starves the disc of lift and lands it short. It does not — measured through the real model, a 24mph tailwind adds ~15m to a drive (109.7 -> 124.8) and doubles a flop (28.5 -> 57.7). So the pack handed out free distance and the holes had nothing to charge for it, which is exactly how it played. The wind still comes from behind on every hole; what changed is that overshooting now costs. Note what the sweep turned up while gating this: the oval platform puts its rim 30-39m past the pin on EVERY hole this generator makes, so out of bounds never punishes an overthrow — long trouble has to be water or cover. Harness ideal is 13 calm / 12 under the authored wind against a pack par of 10. Star lines are 9 / 7, set BY THE AUTHOR rather than extrapolated: they sit 4 and 6 under the harness ideal, where packs 1 and 2 sit at ideal-1 / ideal-3. That is deliberate and it is the tightest pack in the arc — note two stars is also the gate on pack 4, so if 9 proves out of reach the fix is to loosen it here rather than to grind."
+      "$tuning": "The first cut was built on the idea that a tailwind starves the disc of lift and lands it short. It does not — measured through the real model, a 24mph tailwind adds ~15m to a drive (109.7 -> 124.8) and doubles a flop (28.5 -> 57.7). So the pack handed out free distance and the holes had nothing to charge for it, which is exactly how it played. The wind still comes from behind on every hole; what changed is that overshooting now costs. Note what the sweep turned up while gating this: the oval platform puts its rim 30-39m past the pin on EVERY hole this generator makes, so out of bounds never punishes an overthrow — long trouble has to be water or cover. Harness ideal is 13 calm / 12 under the authored wind against a pack par of 10. Star lines are 9 / 7, set BY THE AUTHOR rather than extrapolated: they sit 4 and 6 under the harness ideal, where packs 1 and 2 sit at ideal-1 / ideal-3. That is deliberate and it is the tightest pack in the arc — note two stars is also the gate on pack 4, so if 9 proves out of reach the fix is to loosen it here rather than to grind. Ten holes since 2026-08-11: front five frozen, back five from the design lab. packPar 19 (front 10 + back 9). Star lines design (front five identical)."
     },
     {
       "id": "p4",
@@ -279,10 +491,10 @@
       "title": "The Narrows",
       "mechanic": "Corridors — walls block from the ground up, and the funnelled wind comes back down them at you.",
       "intro": "It came through at head height and every window on the block is still ringing. The wind it dragged in has nowhere to go but between the buildings, and between the buildings is where you are throwing.",
-      "packPar": 9,
-      "target": 10,
-      "elite": 8,
-      "contentRevision": 2,
+      "packPar": 18,
+      "target": 23,
+      "elite": 19,
+      "contentRevision": 3,
       "demand": 1.35,
       "holes": [
         {
@@ -354,10 +566,80 @@
           },
           "beat": "It doubles back on itself between two walls. This one is not into the wind — it is across it, and the gust comes out of the side street at exactly the wrong moment.",
           "certified": "ideal 2/1 calm · 2 in 18mph · 59m · dogleg 1.10 · 5 behind · 11 guarding"
+        },
+        {
+          "n": 6,
+          "seed": "long-round#p4#h6af",
+          "name": "The Underpass",
+          "par": 2,
+          "brief": "pocket",
+          "wind": {
+            "band": "medium",
+            "mph": 14,
+            "from": 348
+          },
+          "beat": "Where the road dips under the rail line, everything the wind carries collects. The pin sits in a ring of what it dropped — come down through the gap.",
+          "certified": "ideal 3/4 · 51m · line→line→flop · 7-prop collar r8.1 · 3 behind · 7 guarding · wet approach"
+        },
+        {
+          "n": 7,
+          "seed": "long-round#p4#h7am",
+          "name": "The Retaining Wall",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "hard",
+            "mph": 16,
+            "from": 28
+          },
+          "beat": "They poured this wall to hold the hill back, and it holds the wind instead. The pin is tucked in behind it, out of the funnel.",
+          "certified": "ideal 2/3 · 40m · standing→line · berm 5.5m · 3 guarding"
+        },
+        {
+          "n": 8,
+          "seed": "long-round#p4#h8ap",
+          "name": "The Second Mile",
+          "par": 3,
+          "brief": "bomber",
+          "wind": {
+            "band": "hard",
+            "mph": 19,
+            "from": 8
+          },
+          "beat": "The avenue keeps going after the streetlights give up. Straight down it, into the same wind as always.",
+          "certified": "ideal 3/5 · 145m · drive→line→line"
+        },
+        {
+          "n": 9,
+          "seed": "long-round#p4#h9w",
+          "name": "Crosstown Gale",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 12
+          },
+          "beat": "Once a year the wind forgets which street it lives on and takes the cross street instead. Today. The corner is walled — go round the way it went.",
+          "certified": "ideal 2/4 · 86m · drive→line · dogleg 1.20 · 6 guarding"
+        },
+        {
+          "n": 10,
+          "seed": "long-round#p4#h10g",
+          "name": "The Reservoir",
+          "par": 1,
+          "brief": "island",
+          "wind": {
+            "band": "hard",
+            "mph": 18,
+            "from": 344
+          },
+          "beat": "The city keeps its water up here, flat and black and patient. The platform in the middle is the green, and the city keeps what misses.",
+          "certified": "ideal 2/3 · 35m · spike→flop · moat 5.9m wide · water 8m long · 3 guarding · wet approach"
         }
       ],
       "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack): 48 candidates per hole, demand 1.35, city pinned, brief forced, every hole certified finishable by the ideal player in calm air AND under its authored wind, and DEFENDED both ways. Certification rates: pocket 48/48, ridge 25/48, bend par 3 14/48, island 48/48, bend par 1 17/48. NO BOMBER, and that is structural rather than a preference: city certified 2/48 on that brief and 0/48 at par 3, because the bomber's job is to clear a corridor and this scenery's entire defence is the corridor. The long hole is a long bend instead. Sweep date: 2026-08-04.",
-      "$tuning": "The wind is the headwind, and it is measured rather than assumed — scripts/sweep-pack's `wind` probe puts the ideal player at 2.33 strokes into it against 1.98 with it in this scenery, with a left-hand crosswind at 2.35, which is why hole 5 turns across the gust instead of into it. Harness ideal is 11 calm / 14 under the authored wind against a pack par of 9. Star lines 10/8 are PROVISIONAL and sit at ideal−1 / ideal−3, the shape packs 1 and 2 shipped at, because nobody has played this pack yet: pack 3's tighter 9/7 was set by an author who had. Retune from real play, and note two stars here is the gate on pack 5 — if 10 proves out of reach the fix is to loosen it, not to grind."
+      "$tuning": "The wind is the headwind, and it is measured rather than assumed — scripts/sweep-pack's `wind` probe puts the ideal player at 2.33 strokes into it against 1.98 with it in this scenery, with a left-hand crosswind at 2.35, which is why hole 5 turns across the gust instead of into it. Harness ideal is 11 calm / 14 under the authored wind against a pack par of 9. Star lines 10/8 are PROVISIONAL and sit at ideal−1 / ideal−3, the shape packs 1 and 2 shipped at, because nobody has played this pack yet: pack 3's tighter 9/7 was set by an author who had. Retune from real play, and note two stars here is the gate on pack 5 — if 10 proves out of reach the fix is to loosen it, not to grind. Ten holes since 2026-08-11: front five frozen, back five from the design lab. packPar 18 (front 9 + back 9). Star lines re-derived: our par 18 + design margin 5/1. PROVISIONAL — the back five has not been swept against this front five; re-run scripts/sweep-pack and retune before treating these as certified."
     },
     {
       "id": "p5",
@@ -367,10 +649,10 @@
       "title": "Shallow Water",
       "mechanic": "The flop — short holes walled in coral, and a crossing current that taxes anything you leave hanging.",
       "intro": "It went out over the water and it did not come down. The shelf below is where the sea kept the sound of it, and down here the current does the work the wind used to.",
-      "packPar": 7,
-      "target": 8,
-      "elite": 6,
-      "contentRevision": 2,
+      "packPar": 16,
+      "target": 26,
+      "elite": 22,
+      "contentRevision": 3,
       "demand": 1.35,
       "holes": [
         {
@@ -442,10 +724,80 @@
           },
           "beat": "The long run out along the edge of the shelf, curving the whole way. It is the one hole down here with room to throw, and the current has the whole flight to work on you.",
           "certified": "ideal 2/2 calm · 2 in 20mph · 109m · dogleg 1.10 · 6 behind · 3 guarding"
+        },
+        {
+          "n": 6,
+          "seed": "long-round#p5#h6f",
+          "name": "Low Tide",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "medium",
+            "mph": 14,
+            "from": 68
+          },
+          "beat": "Twice a day the sea steps back and the reef stands up. A crest of coral across the line, bare and drying — the pin is behind it, for now.",
+          "certified": "ideal 2/3 · 58m · standing→line · berm 7.6m · 3 guarding"
+        },
+        {
+          "n": 7,
+          "seed": "long-round#p5#h7d",
+          "name": "The Nursery",
+          "par": 2,
+          "brief": "pocket",
+          "wind": {
+            "band": "hard",
+            "mph": 16,
+            "from": 124
+          },
+          "beat": "The young coral grows in a closed ring, tended by the eddy it left. Nothing gets in sideways here either — down through the middle.",
+          "certified": "ideal 3/4 · 62m · line→line→flop · 6-prop collar r6.7 · 3 behind · 5 guarding"
+        },
+        {
+          "n": 8,
+          "seed": "long-round#p5#h8v",
+          "name": "Second Shelf",
+          "par": 3,
+          "brief": "bomber",
+          "wind": {
+            "band": "hard",
+            "mph": 18,
+            "from": 254
+          },
+          "beat": "Past the first drop there is another shelf, longer, with nothing on it. The whole length of it, and hold your line.",
+          "certified": "ideal 5/5 · 137m · drive→line→drive→line→line"
+        },
+        {
+          "n": 9,
+          "seed": "long-round#p5#h9h",
+          "name": "The Gale Across the Flats",
+          "par": 1,
+          "brief": "island",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 270
+          },
+          "beat": "The flats hold an inch of water and the gale holds everything else. One dry stand in the middle — only what lands dead stays dry.",
+          "certified": "ideal 2/3 · 53m · spike→flop · moat 6.7m wide · water 8m long · 3 guarding · wet approach"
+        },
+        {
+          "n": 10,
+          "seed": "long-round#p5#h10i",
+          "name": "The Channel",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 17,
+            "from": 286
+          },
+          "beat": "The deep channel bends round the last of the reef, and the reef leans over it. Shape it round — the straight line is under water.",
+          "certified": "ideal 3/4 · 83m · drive→line→line · dogleg 0.75 · 3 guarding"
         }
       ],
       "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack): 48 candidates per hole, demand 1.35, reef pinned, brief forced, certified in calm air AND under the authored wind, and DEFENDED both ways. Certification rates: pocket 46/48, ridge 27/48, island 48/48, bend par 1 14/48, bend par 2 18/48. Hole 3 was authored par 2 and re-swept as a par 1: all 48 certified candidates at par 2 were an ideal-player ace, so the par carried no information — the same tell that made pack 2's ridge a par 1 — and the par-1 brief deals a different, harder set of holes (ideal 2). Reef has NO LAKE (BiomeCatalog gives it lake 0.0...0.0, it being a submerged scenery), so the only water a reef hole can carve is an island's own moat; every other hole here is defended by coral, which reef has more of than any other scenery (55-100 props). Sweep date: 2026-08-04.",
-      "$tuning": "The stub sold this pack as \"water everywhere\", and reef cannot deal that — see the curation note. The mechanic is the other half of what the stub said, the flop, and the current is a CROSSING one because that is what actually costs here: scripts/sweep-pack's `wind` probe puts the ideal player at 1.90/2.04 across the line against 1.42/1.46 along it, the opposite of the arc's assumption that the headwind is always the punishing direction. These holes are short, so drift beats carry. Pack 2 is nominally the crosswind pack but is asking a different question — aim-off on a long bend, against hang time on a short drop, and a flop is the shot that hangs. Harness ideal is 9 calm / 11 under the authored wind against a pack par of 7. Star lines 8/6 are PROVISIONAL at ideal−1 / ideal−3, same reasoning as pack 4: unplayed content gets the pack 1/2 shape, not pack 3's author-tightened one."
+      "$tuning": "The stub sold this pack as \"water everywhere\", and reef cannot deal that — see the curation note. The mechanic is the other half of what the stub said, the flop, and the current is a CROSSING one because that is what actually costs here: scripts/sweep-pack's `wind` probe puts the ideal player at 1.90/2.04 across the line against 1.42/1.46 along it, the opposite of the arc's assumption that the headwind is always the punishing direction. These holes are short, so drift beats carry. Pack 2 is nominally the crosswind pack but is asking a different question — aim-off on a long bend, against hang time on a short drop, and a flop is the shot that hangs. Harness ideal is 9 calm / 11 under the authored wind against a pack par of 7. Star lines 8/6 are PROVISIONAL at ideal−1 / ideal−3, same reasoning as pack 4: unplayed content gets the pack 1/2 shape, not pack 3's author-tightened one. Ten holes since 2026-08-11: front five frozen, back five from the design lab. packPar 16 (front 7 + back 9). Star lines re-derived: our par 16 + design margin 10/6. PROVISIONAL — the back five has not been swept against this front five; re-run scripts/sweep-pack and retune before treating these as certified."
     },
     {
       "id": "p6",
@@ -455,10 +807,10 @@
       "title": "Under It At Last",
       "mechanic": "Everything, one brief each — and the mountain charges across the line, not into it.",
       "intro": "It has been circling the mountain all week, riding the heat off the caldera. Tonight it comes low enough to touch. Every wind up here is the wind it drags round behind it, and it comes at you sideways.",
-      "packPar": 9,
-      "target": 11,
-      "elite": 9,
-      "contentRevision": 2,
+      "packPar": 19,
+      "target": 25,
+      "elite": 21,
+      "contentRevision": 3,
       "demand": 1.35,
       "holes": [
         {
@@ -530,10 +882,80 @@
           },
           "beat": "A green in a ring of lava, dead under where it circles. Nine metres past the pin the ground stops being ground. Put your disc down where it never has — and then look up.",
           "certified": "ideal 2/2 calm · 2 in 24mph · 50m · moat 5.6m wide · lava 9m long · 6 behind · 10 guarding · wet approach"
+        },
+        {
+          "n": 6,
+          "seed": "long-round#p6#h6e",
+          "name": "After It Touched",
+          "par": 2,
+          "brief": "pocket",
+          "wind": {
+            "band": "hard",
+            "mph": 18,
+            "from": 246
+          },
+          "beat": "It touched, and it lifted, and the mountain is still ringing. A collar of rock around the place — drop yours where the ringing is loudest.",
+          "certified": "ideal 3/4 · 78m · flop→flop→flop · 6-prop collar r6.5 · 3 behind · lava 15m long · 4 guarding"
+        },
+        {
+          "n": 7,
+          "seed": "long-round#p6#h7ad",
+          "name": "The Far Slope",
+          "par": 2,
+          "brief": "bend",
+          "wind": {
+            "band": "hard",
+            "mph": 19,
+            "from": 232
+          },
+          "beat": "The far side of the mountain, going down. The old flow turned here and the path turns with it; the wind comes across, as it always does up here.",
+          "certified": "ideal 2/4 · 75m · standing→line · dogleg 1.10 · lava 13m long · 3 guarding"
+        },
+        {
+          "n": 8,
+          "seed": "long-round#p6#h8q",
+          "name": "The Ashfall",
+          "par": 1,
+          "brief": "ridge",
+          "wind": {
+            "band": "hard",
+            "mph": 20,
+            "from": 300
+          },
+          "beat": "The ash it kicked up coming down is still falling, in a wall that drifts and never lands. The pin is on the far side of the fall.",
+          "certified": "ideal 3/3 · 52m · standing→line→line · berm 6.9m · lava 15m long · 3 guarding"
+        },
+        {
+          "n": 9,
+          "seed": "long-round#p6#h9l",
+          "name": "The Descent Run",
+          "par": 3,
+          "brief": "bomber",
+          "wind": {
+            "band": "gale",
+            "mph": 24,
+            "from": 84
+          },
+          "beat": "The long straight down the shoulder, the gale across you, the ground dropping away. It flew this line going up. You fly it going down.",
+          "certified": "ideal 3/5 · 190m · drive→drive→line · lava 7m long"
+        },
+        {
+          "n": 10,
+          "seed": "long-round#p6#h10ac",
+          "name": "It Went Up",
+          "par": 2,
+          "brief": "island",
+          "wind": {
+            "band": "hard",
+            "mph": 21,
+            "from": 102
+          },
+          "beat": "A ring of lava, and above it, nothing — this is where it stopped circling and went up. Put your disc down inside the ring and watch the sky.",
+          "certified": "ideal 3/4 · 53m · flop→flop→flop · moat 6.6m wide · lava 8m long · 3 guarding · wet approach"
         }
       ],
       "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack p6): 48 candidates per hole, demand 1.35, volcano pinned, brief forced, certified in calm air AND under the authored wind, and DEFENDED both ways. The finale plays ALL FIVE briefs, one each. Certification rates: bend par 2 13/48, pocket par 2 47/48, ridge par 1 28/48, bomber par 2 4/48, island par 2 48/48. The bomber was authored par 3 and re-swept as a par 2: at par 3 exactly one candidate in 48 certified and the ideal player went round it in 2, the same no-information tell that dropped pack 2's ridge and pack 5's island a rung. Volcano is the hardest scenery in the arc to deal a bomber on (the scout certifies 1-4 of 32 at every par) because that brief clears a corridor and this mountain's defence is what stands in it; the winner is the only one of the four that clears the general defended gate rather than the bomber's raised long-trouble exemption. No gate was softened for this pack: volcano clears pack 3's defended gate on its own props (10-26 blockers guard a typical approach) and pack 3's story-fit floors untouched (dogleg 0.80-0.95, berms 16-19m). The moat and the dealt lake are both LAVA here (the scenery-coherence pass), so 'wet' in these receipts is the mountain's own hazard. Sweep date: 2026-08-05.",
-      "$tuning": "WINDS ARE CROSSWINDS, and that is a measurement rather than a mood. The design project authored the finale as a dead headwind from 0 degrees — the thing overhead comes low and you throw straight into it — and scripts/sweep-pack's `wind` probe puts the ideal player at 1.58 into a volcano headwind and 1.54 with it, against 2.06 across the line either way. This mountain is reef's shape, not city's. So the bearings march round the compass (224 -> 262 -> 288 -> 66 -> 96) because the thing is circling, and every one of them sits on or near a cross axis because that is where volcano actually charges. That is the third time the arc has assumed a wind direction and been wrong; the probe is cheaper than the re-author. TWO GALES — the bomber set piece and hole 30 itself — are the one deliberate break of the arc's one-gale rule, and this is the pack that gets to break it. Harness ideal is 11 calm / 10 under the authored wind against a pack par of 9. Star lines 11 / 9 are PROVISIONAL at target = calm ideal, elite = ideal-2 — packs 2 and 4's shape for unplayed content, not pack 3's author-tightened one. If the finale proves cruel, loosen target before softening the winds: the winds are the only thing here that was measured."
+      "$tuning": "WINDS ARE CROSSWINDS, and that is a measurement rather than a mood. The design project authored the finale as a dead headwind from 0 degrees — the thing overhead comes low and you throw straight into it — and scripts/sweep-pack's `wind` probe puts the ideal player at 1.58 into a volcano headwind and 1.54 with it, against 2.06 across the line either way. This mountain is reef's shape, not city's. So the bearings march round the compass (224 -> 262 -> 288 -> 66 -> 96) because the thing is circling, and every one of them sits on or near a cross axis because that is where volcano actually charges. That is the third time the arc has assumed a wind direction and been wrong; the probe is cheaper than the re-author. TWO GALES — the bomber set piece and hole 30 itself — are the one deliberate break of the arc's one-gale rule, and this is the pack that gets to break it. Harness ideal is 11 calm / 10 under the authored wind against a pack par of 9. Star lines 11 / 9 are PROVISIONAL at target = calm ideal, elite = ideal-2 — packs 2 and 4's shape for unplayed content, not pack 3's author-tightened one. If the finale proves cruel, loosen target before softening the winds: the winds are the only thing here that was measured. Ten holes since 2026-08-11: front five frozen, back five from the design lab. packPar 19 (front 9 + back 10). Star lines design (front five identical)."
     }
   ]
 }
