@@ -26,7 +26,7 @@
           "mechanic": "Crosswind reading — the preview stops helping at medium, so aiming off becomes yours.",
           "intro": "It left from here, they say. The grass under the old stand is still combed flat in one direction.",
           "packPar": 18,
-          "target": 25,
+          "target": 23,
           "holes": [
             {
               "n": 1,
@@ -170,9 +170,9 @@
             }
           ],
           "$curation": "Seeds selected by the Pack lab in course.html (sweep of 16 candidates per hole, demand 1.15, park pinned, brief forced). Gates: story-fit floors (bend dogleg ≥ 0.7, ridge berm ≥ 6m), finishable by the analyser, every brief check green, par as authored. certified = the ideal round the analyser found in calm air; pack wind will cost real players more. Sweep date: 2026-08-02.",
-          "elite": 21,
+          "elite": 18,
           "$tuning": "Retuned 2026-08-02 from real play, twice: the author shot 10 against an authored 22, so the lines came down to 16/12 and then to 11/9 — two stars at 11 or better, three at 9 or better, against a pack par of 9. Star lines are tuned off what a person actually shoots, never off par: par-anchored lines are participation trophies. Pars are Frolfy's 1/2/3 scale (the design generator's 3/4/5 shifted down two), so packPar is informational rather than a target. Ten holes since 2026-08-11: front five frozen, back five from the design lab. packPar 18 (front 9 + back 9). Star lines design (front five identical).",
-          "contentRevision": 2
+          "contentRevision": 3
         },
         {
           "id": "p2",
@@ -183,8 +183,8 @@
           "mechanic": "Crosswind shaping — every wind here comes off the sea sideways, and nothing reaches the pin on a straight line.",
           "intro": "It went out over the water from this shore, and the water has been coming back ever since. Nothing here has grown straight in a hundred years.",
           "packPar": 18,
-          "target": 23,
-          "elite": 19,
+          "target": 22,
+          "elite": 17,
           "holes": [
             {
               "n": 1,
@@ -329,7 +329,7 @@
           ],
           "$curation": "Seeds selected by the SWIFT Pack lab (scripts/sweep-pack), not the browser one: 16 candidates per hole, demand 1.15, beach pinned, brief forced. Same gates as pack 1's JS sweep (story-fit floors — bend dogleg >= 0.7, ridge berm >= 6m; brief's feature present in the built terrain; finishable by the ideal player) plus one the JS lab cannot run — finishable under the AUTHORED WIND, not just in calm air. certified = what the Swift harness measured, so it is directly comparable to LevelPackTests' log rather than to pack 1's JS receipts. Sweep date: 2026-08-03.",
           "$tuning": "Pars are set from the measured ideal, not the other way round: at par 2 every certified ridge candidate was an ideal-player ace, so the berm hole is a par 1. Every hole's ideal now sits at or above its par. Harness ideal for the pack is 10 calm / 10 under authored wind. Star lines are PROVISIONAL and want a real-play retune the way pack 1 got one — on pack 1 the author shot 2 under the harness ideal, and target/elite ended at ideal-1 / ideal-3. Extrapolated here to target 10 / elite 8. Shoot the pack, then set them from that. Ten holes since 2026-08-11: front five frozen, back five from the design lab. packPar 18 (front 9 + back 9). Star lines design (front five identical).",
-          "contentRevision": 2
+          "contentRevision": 3
         },
         {
           "id": "p3",
@@ -340,9 +340,9 @@
           "mechanic": "Downwind trouble — the wind gives you distance you did not ask for, and every pin here has something waiting long.",
           "intro": "It came through low over the fields and the whole crop is still lying down behind it. The wind at your back is its wake, and it will take you further than you meant to go.",
           "packPar": 19,
-          "target": 21,
-          "elite": 17,
-          "contentRevision": 5,
+          "target": 20,
+          "elite": 15,
+          "contentRevision": 6,
           "demand": 1.35,
           "holes": [
             {
@@ -498,9 +498,9 @@
           "mechanic": "Corridors — walls block from the ground up, and the funnelled wind comes back down them at you.",
           "intro": "It came through at head height and every window on the block is still ringing. The wind it dragged in has nowhere to go but between the buildings, and between the buildings is where you are throwing.",
           "packPar": 18,
-          "target": 23,
-          "elite": 19,
-          "contentRevision": 3,
+          "target": 19,
+          "elite": 14,
+          "contentRevision": 4,
           "demand": 1.35,
           "holes": [
             {
@@ -656,9 +656,9 @@
           "mechanic": "The flop — short holes walled in coral, and a crossing current that taxes anything you leave hanging.",
           "intro": "It went out over the water and it did not come down. The shelf below is where the sea kept the sound of it, and down here the current does the work the wind used to.",
           "packPar": 16,
-          "target": 26,
-          "elite": 22,
-          "contentRevision": 3,
+          "target": 17,
+          "elite": 12,
+          "contentRevision": 4,
           "demand": 1.35,
           "holes": [
             {
@@ -814,9 +814,9 @@
           "mechanic": "Everything, one brief each — and the mountain charges across the line, not into it.",
           "intro": "It has been circling the mountain, riding the heat off the caldera. Tonight it comes low enough to touch — and touching it is not catching it. Every wind up here is the wind it drags round behind it, and it comes at you sideways. When it lifts off the ridge it keeps climbing, and the trail climbs after it.",
           "packPar": 19,
-          "target": 25,
-          "elite": 21,
-          "contentRevision": 3,
+          "target": 20,
+          "elite": 15,
+          "contentRevision": 4,
           "demand": 1.35,
           "holes": [
             {
@@ -980,9 +980,9 @@
           "mechanic": "Into the wind — every hole is thrown into the face of it, so the disc stops short of the line the arc draws and the answer is a rung up the ladder rather than an aim-off.",
           "intro": "It went north, and the wind that carries it turned to meet you. There is nothing on this shelf to break it: no trees, no walls, four hundred miles of open ice and then here. The arc on the ground still draws the still-air line and the air has not been still since you arrived. It is out ahead of the weather, the way it always is.",
           "packPar": 19,
-          "target": 26,
-          "elite": 22,
-          "contentRevision": 1,
+          "target": 20,
+          "elite": 15,
+          "contentRevision": 2,
           "demand": 1.35,
           "holes": [
             {
