@@ -1128,6 +1128,165 @@
           ],
           "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack --spec, the first pack authored through frolf-levels-pack): 48 candidates per hole, demand 1.35, arctic pinned, brief forced, certified in calm air AND under the authored wind, and DEFENDED both ways. Certification rates: bend par 2 6/48, pocket par 1 45/48, ridge par 2 8/48, island par 2 48/48, bend par 2 10/48, ridge par 1 26/48, pocket par 2 43/48, bend par 2 5/48, island par 2 48/48, ridge par 3 8/48. NO BOMBER, and that is the sweep's finding rather than a preference: three bomber holes were specced and every one certified 3-4 of 48 with the winner coming back `0 guarding`, 44-45 of 48 rejections being undefended holes. That brief clears a corridor and open arctic ground has nothing else to defend with, so the corridor was the only defence there could have been. Raising demand to 1.5 changed none of it. Same shape as pack 4's no-bomber note for city, arrived at independently. Hole 5 was authored par 3 and re-swept as a par 2: at par 3 the ideal player went round it in 2 calm and 1 windy, the same no-information tell that dropped pack 2's ridge and pack 5's island a rung. At par 2 it is 103m, 22 guarding, and the wind costs two strokes. No gate was softened. Sweep date: 2026-08-13.",
           "$tuning": "THE WIND IS A HEADWIND, and that is the pack. Every bearing sits within 20 degrees of 0 — the thing overhead went north and the wind it drags is coming back down the line at you — which makes this the first stop on the trail that tests the loft ladder rather than aim-off. Packs 1 and 2 are crosswind reading and shaping, pack 3 is downwind trouble; into it was the one axis the introduction never asked about. STAR LINES ARE PROVISIONAL AND DELIBERATELY NOT PACK 6's SHAPE. Harness ideal is 22 calm and 25 under the authored wind, against a pack par of 19 — the first pack where the authored wind costs MORE than the calm ideal by a clear margin (+3), which is the mechanic working. Setting target at the calm ideal the way pack 6 did would price the pack as if its own wind were not there, so target follows the WINDY ideal (26 = windy ideal + 1) and elite sits at the calm ideal (22). If it proves cruel, loosen target before touching the winds: the winds are the only thing here that was measured. Every PlaytestHarness number is a floor — it has perfect knowledge of the flight model — so real play is harder than these lines assume, never easier. ONE GALE, on the long hole (10), per the arc's rule; pack 6's two-gale break is not inherited. Ten holes, front five and back five, packPar 19."
+        },
+        {
+          "id": "p8",
+          "week": 8,
+          "status": "draft",
+          "scenery": "desert",
+          "world": "The Dry Pan",
+          "title": "The Air Gives Out",
+          "mechanic": "Wind that will not hold — the bearing barely moves all pack while the strength changes by nine miles an hour between one hole and the next, so the throw that was right on the last tee is wrong on this one and right again two holes on.",
+          "intro": "It went inland, and everything it touched dried out behind it. What is left is heat, hard light, and a wind that cannot settle: it leans on you the whole length of one hole and drops out from under the disc halfway down the next. The bearing never really changes. Only the strength does, hole to hole, and by more than anything else on this trail so far.",
+          "packPar": 18,
+          "target": 19,
+          "elite": 14,
+          "contentRevision": 1,
+          "demand": 1.35,
+          "holes": [
+            {
+              "n": 1,
+              "seed": "long-round#p8#h1ar",
+              "name": "First Heat",
+              "par": 2,
+              "brief": "pocket",
+              "wind": {
+                "band": "medium",
+                "mph": 14,
+                "from": 262
+              },
+              "beat": "First light is already hot. Sixty metres of pan, and a ring of thorn standing round the basket with eight of them close enough to matter. The wind is only leaning at this hour.",
+              "certified": "ideal 2/2 calm · 2 in 14mph · 60m · 6-prop collar r6.5 · 5 behind · 8 guarding"
+            },
+            {
+              "n": 2,
+              "seed": "long-round#p8#h2n",
+              "name": "The Mirage",
+              "par": 1,
+              "brief": "island",
+              "wind": {
+                "band": "hard",
+                "mph": 23,
+                "from": 275
+              },
+              "beat": "Forty-two metres, and a flat sheet of water round the pin that has no business being out here. Nothing stands behind it to catch anything long. The wind has doubled since the last tee.",
+              "certified": "ideal 2/1 calm · 2 in 23mph · 42m · moat 6.3m wide · 0 behind · water 8m long · 6 guarding · wet approach"
+            },
+            {
+              "n": 3,
+              "seed": "long-round#p8#h3au",
+              "name": "The Low Bank",
+              "par": 1,
+              "brief": "ridge",
+              "wind": {
+                "band": "medium",
+                "mph": 13,
+                "from": 258
+              },
+              "beat": "A bank of dried silt nineteen metres across, thrown up back when there was still water here to move it. Forty-eight metres to the other side, and the air has gone quiet again.",
+              "certified": "ideal 1/1 calm · 2 in 13mph · 48m · berm 19.3m · 3 behind · 3 guarding"
+            },
+            {
+              "n": 4,
+              "seed": "long-round#p8#h4au",
+              "name": "Shade At Noon",
+              "par": 2,
+              "brief": "pocket",
+              "wind": {
+                "band": "hard",
+                "mph": 22,
+                "from": 281
+              },
+              "beat": "The only shade for a mile is the seven trees standing round the basket, and they are standing close. Eighty-four metres to them, and by noon the wind is back up and coming across the left shoulder.",
+              "certified": "ideal 3/2 calm · 3 in 22mph · 84m · 7-prop collar r6.5 · 5 behind · 5 guarding"
+            },
+            {
+              "n": 5,
+              "seed": "long-round#p8#h5av",
+              "name": "The Shallow Pan",
+              "par": 1,
+              "brief": "island",
+              "wind": {
+                "band": "medium",
+                "mph": 14,
+                "from": 266
+              },
+              "beat": "Forty-one metres to a pin on an island in a pan that is mostly dry. Seven and a half metres of water still ringing it, warm and going nowhere. The wind has dropped off again.",
+              "certified": "ideal 1/1 calm · 2 in 14mph · 41m · moat 7.5m wide · 4 behind · water 8m long · 3 guarding · wet approach"
+            },
+            {
+              "n": 6,
+              "seed": "long-round#p8#h6t",
+              "name": "The Long Dry",
+              "par": 3,
+              "brief": "pocket",
+              "wind": {
+                "band": "hard",
+                "mph": 24,
+                "from": 249
+              },
+              "beat": "A hundred and ten metres of open ground with nothing standing on it, and then a wide collar of thorn at the end of it, eight metres out from the pin. The wind came back hard while you were walking.",
+              "certified": "ideal 2/3 calm · 3 in 24mph · 110m · 7-prop collar r8.4 · 6 behind · 4 guarding"
+            },
+            {
+              "n": 7,
+              "seed": "long-round#p8#h7ab",
+              "name": "Second Mirage",
+              "par": 2,
+              "brief": "island",
+              "wind": {
+                "band": "medium",
+                "mph": 13,
+                "from": 272
+              },
+              "beat": "The same water again, or water like it, sixty metres out. Six shapes behind the pin and one beside it. The air has gone thin for the third time today.",
+              "certified": "ideal 1/2 calm · 2 in 13mph · 60m · moat 7.4m wide · 6 behind · water 8m long · 1 guarding · wet approach"
+            },
+            {
+              "n": 8,
+              "seed": "long-round#p8#h8at",
+              "name": "The Thorn Ring",
+              "par": 1,
+              "brief": "pocket",
+              "wind": {
+                "band": "hard",
+                "mph": 22,
+                "from": 285
+              },
+              "beat": "Seventy-two metres, five thorn trees in a ring at the end of them and ten more standing behind, so nothing long comes back. The wind is up again and steady across.",
+              "certified": "ideal 2/1 calm · 2 in 22mph · 72m · 5-prop collar r7.1 · 10 behind · 4 guarding"
+            },
+            {
+              "n": 9,
+              "seed": "long-round#p8#h9av",
+              "name": "Everything It Dried",
+              "par": 3,
+              "brief": "pocket",
+              "wind": {
+                "band": "gale",
+                "mph": 26,
+                "from": 259
+              },
+              "beat": "A hundred and thirty-five metres, the longest thing out here, and the gale has the whole pan to run across before it reaches you. Six trees at the end, set wide apart, and the ground in between has not held water in a long time.",
+              "certified": "ideal 3/3 calm · 3 in 26mph · 135m · 6-prop collar r8.1 · 6 behind · 4 guarding"
+            },
+            {
+              "n": 10,
+              "seed": "long-round#p8#h10k",
+              "name": "The Last Water",
+              "par": 2,
+              "brief": "island",
+              "wind": {
+                "band": "medium",
+                "mph": 14,
+                "from": 268
+              },
+              "beat": "The last of it: fifty-nine metres to a pin ringed by seven metres of standing water, with one tree behind. The wind has dropped to nothing much, which by now you should not trust. It is already further on.",
+              "certified": "ideal 2/2 calm · 2 in 14mph · 59m · moat 7.2m wide · 1 behind · water 8m long · 1 guarding · wet approach"
+            }
+          ],
+          "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack --spec): 48 candidates per hole, demand 1.35, desert pinned, brief forced, certified in calm air AND under the authored wind, and DEFENDED both ways. Certification rates: pocket par 2 42/48, island par 1 48/48, ridge par 1 2/48, pocket par 2 43/48, island par 1 48/48, pocket par 3 36/48, island par 2 48/48, pocket par 1 43/48, pocket par 3 38/48, island par 2 48/48. NO BEND AND NO BOMBER, and both are the ground's answer rather than a preference. Scouting desert at demand 1.15 and again at 1.00 returned bend 0/32 at every par with all 32 rejections failing STORY FIT rather than defence — desert does not draw doglegs at all, which is a different fact from pack 4 and pack 7's no-bomber finding and is worth keeping separate. Bomber was 0/32 at every par, all undefended, the same shape city and arctic gave. Demand was not the binding constraint: the two scouts were identical. That leaves pocket, island and a single ridge par, which is why this pack is five collars, four moats and one berm. TWO HOLES WERE RE-SWEPT A RUNG LOWER. Hole 2 was authored par 2 and hole 10 par 3; at those pars the ideal player beat par in calm air AND under the authored wind, so par could not be missed by anybody. Holes 6 and 7 carry the same warning and were KEPT, because their ideal only beats par in calm and the authored wind restores it — that is the line this run drew, and it is a judgement rather than a gate. No gate was softened. Sweep date: 2026-08-15.",
+          "$tuning": "THE STRENGTH MOVES AND THE BEARING DOES NOT, and that is the pack. Mean change in wind strength between consecutive holes is 9.1 mph, against 2.4–4.7 for every pack shipped before it — roughly double the loosest of them. Mean change in bearing is 17 degrees, which sits with pack 7 (14) and pack 3 (24) at the tight end and nowhere near pack 1 (93) or pack 2 (146). That inversion is the whole point and it is the answer to a note left on the season proposal: a moving BEARING is not novel, because packs 1, 2, 5 and 6 already swing it 176–180 degrees across ten holes. A moving STRENGTH is, and holding the bearing still is what makes it legible — with both moving, nothing tells the player which one cost them the hole. It also agrees with the ground: desert defends with collars and moats, both of them radius defences that a mis-carried throw fails, and carry is exactly what a strength change breaks. STAR LINES ARE COMPUTED, NOT MEASURED. packPar 18, so elite = 18 - 4 = 14 and target = 14 + 5 = 19, straight off LevelStarLines. The harness's totals were deliberately not consulted: its ideal player takes two strokes on nearly every hole whatever the par, so its pack totals sit in one 20–25 band for the whole trail and run backwards against real play. Reading them is what gave a par-16 pack a 3-star line of 22 before the 2026-08-15 retune. ONE GALE, on the long hole (9, at 135m), per the arc's rule. MEDIUM IS THE FLOOR: five medium, four hard, one gale, nothing calmer. Ten holes, front five and back five, packPar 18."
         }
       ]
     }
