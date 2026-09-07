@@ -1287,6 +1287,324 @@
           ],
           "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack --spec): 48 candidates per hole, demand 1.35, desert pinned, brief forced, certified in calm air AND under the authored wind, and DEFENDED both ways. Certification rates: pocket par 2 42/48, island par 1 48/48, ridge par 1 2/48, pocket par 2 43/48, island par 1 48/48, pocket par 3 36/48, island par 2 48/48, pocket par 1 43/48, pocket par 3 38/48, island par 2 48/48. NO BEND AND NO BOMBER, and both are the ground's answer rather than a preference. Scouting desert at demand 1.15 and again at 1.00 returned bend 0/32 at every par with all 32 rejections failing STORY FIT rather than defence — desert does not draw doglegs at all, which is a different fact from pack 4 and pack 7's no-bomber finding and is worth keeping separate. Bomber was 0/32 at every par, all undefended, the same shape city and arctic gave. Demand was not the binding constraint: the two scouts were identical. That leaves pocket, island and a single ridge par, which is why this pack is five collars, four moats and one berm. TWO HOLES WERE RE-SWEPT A RUNG LOWER. Hole 2 was authored par 2 and hole 10 par 3; at those pars the ideal player beat par in calm air AND under the authored wind, so par could not be missed by anybody. Holes 6 and 7 carry the same warning and were KEPT, because their ideal only beats par in calm and the authored wind restores it — that is the line this run drew, and it is a judgement rather than a gate. No gate was softened. Sweep date: 2026-08-15.",
           "$tuning": "THE STRENGTH MOVES AND THE BEARING DOES NOT, and that is the pack. Mean change in wind strength between consecutive holes is 9.1 mph, against 2.4–4.7 for every pack shipped before it — roughly double the loosest of them. Mean change in bearing is 17 degrees, which sits with pack 7 (14) and pack 3 (24) at the tight end and nowhere near pack 1 (93) or pack 2 (146). That inversion is the whole point and it is the answer to a note left on the season proposal: a moving BEARING is not novel, because packs 1, 2, 5 and 6 already swing it 176–180 degrees across ten holes. A moving STRENGTH is, and holding the bearing still is what makes it legible — with both moving, nothing tells the player which one cost them the hole. It also agrees with the ground: desert defends with collars and moats, both of them radius defences that a mis-carried throw fails, and carry is exactly what a strength change breaks. STAR LINES ARE COMPUTED, NOT MEASURED. packPar 18, so elite = 18 - 4 = 14 and target = 14 + 5 = 19, straight off LevelStarLines. The harness's totals were deliberately not consulted: its ideal player takes two strokes on nearly every hole whatever the par, so its pack totals sit in one 20–25 band for the whole trail and run backwards against real play. Reading them is what gave a par-16 pack a 3-star line of 22 before the 2026-08-15 retune. ONE GALE, on the long hole (9, at 135m), per the arc's rule. MEDIUM IS THE FLOOR: five medium, four hard, one gale, nothing calmer. Ten holes, front five and back five, packPar 18."
+        },
+        {
+          "id": "p9",
+          "week": 9,
+          "status": "live",
+          "scenery": "jungle",
+          "world": "The Wet Green",
+          "title": "Where It Never Dried",
+          "mechanic": "Nothing here is open. Every line runs through cover, and four of the greens have water short of them, so the throw that is held back for safety is the one that gets wet and the throw that commits is the one the trees are waiting for.",
+          "intro": "The one place it went through that never dried out.",
+          "packPar": 22,
+          "target": 23,
+          "elite": 18,
+          "contentRevision": 1,
+          "demand": 1.35,
+          "holes": [
+            {
+              "n": 1,
+              "seed": "long-round#p9#h1k",
+              "name": "First Canopy",
+              "par": 2,
+              "brief": "pocket",
+              "wind": {
+                "band": "medium",
+                "mph": 13,
+                "from": 88
+              },
+              "beat": "Ninety metres of it, and water in the last ten.",
+              "certified": "ideal 4/2 calm · 3 in 13mph · 92m · 5-prop collar r6.5 · 8 behind · 7 guarding · wet approach"
+            },
+            {
+              "n": 2,
+              "seed": "long-round#p9#h2ag",
+              "name": "The Vine Turn",
+              "par": 2,
+              "brief": "bend",
+              "wind": {
+                "band": "medium",
+                "mph": 15,
+                "from": 272
+              },
+              "beat": "Left, hard, round a wall of green that does not care which way you meant to go.",
+              "certified": "ideal 3/2 calm · 2 in 15mph · 71m · dogleg 1.30 · 13 behind · 8 guarding"
+            },
+            {
+              "n": 3,
+              "seed": "long-round#p9#h3as",
+              "name": "The Pool",
+              "par": 2,
+              "brief": "island",
+              "wind": {
+                "band": "hard",
+                "mph": 21,
+                "from": 95
+              },
+              "beat": "Black water, warm as a bath. Fourteen trunks stand in it.",
+              "certified": "ideal 3/2 calm · 3 in 21mph · 42m · moat 7.8m wide · 11 behind · water 9m long · 14 guarding · wet approach"
+            },
+            {
+              "n": 4,
+              "seed": "long-round#p9#h4d",
+              "name": "The Root Bank",
+              "par": 2,
+              "brief": "ridge",
+              "wind": {
+                "band": "medium",
+                "mph": 14,
+                "from": 268
+              },
+              "beat": "The ground heaves up between the tee and the basket like something buried is trying to get out.",
+              "certified": "ideal 3/2 calm · 3 in 14mph · 67m · berm 19.2m · 8 behind · 12 guarding"
+            },
+            {
+              "n": 5,
+              "seed": "long-round#p9#h5af",
+              "name": "Second Turn, Wet",
+              "par": 2,
+              "brief": "bend",
+              "wind": {
+                "band": "hard",
+                "mph": 22,
+                "from": 100
+              },
+              "beat": "Same turn as before. This time there is water where the disc wants to land, and the wind has come up to twenty-two.",
+              "certified": "ideal 3/2 calm · 3 in 22mph · 79m · dogleg 1.30 · 8 behind · 10 guarding · wet approach"
+            },
+            {
+              "n": 6,
+              "seed": "long-round#p9#h6f",
+              "name": "Seven Trunks",
+              "par": 2,
+              "brief": "pocket",
+              "wind": {
+                "band": "medium",
+                "mph": 13,
+                "from": 262
+              },
+              "beat": "Seven trunks round the basket, close enough to touch each other.",
+              "certified": "ideal 3/2 calm · 3 in 13mph · 68m · 7-prop collar r6.4 · 13 behind · 15 guarding"
+            },
+            {
+              "n": 7,
+              "seed": "long-round#p9#h7an",
+              "name": "The Drowned Green",
+              "par": 2,
+              "brief": "island",
+              "wind": {
+                "band": "hard",
+                "mph": 23,
+                "from": 84
+              },
+              "beat": "Water short. Water round. Hard air from the right.",
+              "certified": "ideal 4/2 calm · 3 in 23mph · 52m · moat 6.3m wide · 6 behind · water 8m long · 8 guarding · wet approach"
+            },
+            {
+              "n": 8,
+              "seed": "long-round#p9#h8as",
+              "name": "The Long Root",
+              "par": 2,
+              "brief": "ridge",
+              "wind": {
+                "band": "medium",
+                "mph": 15,
+                "from": 278
+              },
+              "beat": "Over the bank blind, into a stand nobody can see from the tee.",
+              "certified": "ideal 3/2 calm · 3 in 15mph · 77m · berm 18.4m · 11 behind · 14 guarding"
+            },
+            {
+              "n": 9,
+              "seed": "long-round#p9#h9f",
+              "name": "Everything Under It",
+              "par": 3,
+              "brief": "bomber",
+              "wind": {
+                "band": "gale",
+                "mph": 27,
+                "from": 92
+              },
+              "beat": "A hundred and fifty-three metres of rain forest with a gale laid across it. This is the one the whole pack was walking toward.",
+              "certified": "ideal 4/3 calm · 4 in 27mph · 153m · 153m · 8 behind · 2 guarding"
+            },
+            {
+              "n": 10,
+              "seed": "long-round#p9#h10ak",
+              "name": "The Way Out",
+              "par": 3,
+              "brief": "bend",
+              "wind": {
+                "band": "hard",
+                "mph": 21,
+                "from": 265
+              },
+              "beat": "The canopy opens. One more turn.",
+              "certified": "ideal 4/3 calm · 3 in 21mph · 98m · dogleg 1.05 · 4 behind · 10 guarding"
+            }
+          ],
+          "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack --spec): 48 candidates per hole, demand 1.35, jungle pinned, brief forced, certified in calm air AND under the authored wind, and DEFENDED both ways. Certification rates: pocket par 2 48/48, bend par 2 28/48, island par 2 48/48, ridge par 2 42/48, bend par 2 29/48, pocket par 2 48/48, island par 2 48/48, ridge par 2 46/48, bomber par 3 30/48, bend par 3 32/48. JUNGLE IS THE FIRST TRAIL SCENERY THAT DEFENDS EVERY BRIEF: bend, ridge, pocket, bomber and island all certify here at every par (scout at demand 1.15: bend 18-21/32, bomber 19-24/32 with the rejections split between story fit and undefended rather than all undefended), which is the opposite of desert (no bend, no bomber), city and arctic (no bomber). THREE HOLES WERE RE-SWEPT A RUNG HIGHER. Holes 1, 3 and 8 were authored par 1 and the top-ranked candidate on each took the ideal player THREE strokes in calm air -- not a hole that could be missed by anybody, a hole that could not be made by anybody. Raising them to par 2 is the honest label for this ground, and the same spec swept on volcano and park gave the same ideal totals (31 and 32 against jungle's 34), so this is the ranking finding the most defended hole on dense ground rather than a jungle quirk. Demand made no difference: 1.15 and 1.35 chose byte-identical winners. No gate was softened. Sweep date: 2026-09-06.",
+          "$tuning": "THE IDEAL PLAYER NEEDS 34 STROKES FOR A PAR-22 PACK, against 22 for a par-19 p7 and 19 for a par-18 p8, and that gap is the pack. Every shipped pack before it sits between +0 and +8 over its par for the perfect player; this one is +12, because every candidate the ranking prefers is buried in cover (8-15 props behind the pin, 7-15 guarding) and the ideal has to route round it. The star lines are computed from par as LevelStarLines requires (elite 18, target 23) and NOT from the harness, which means 2 stars here is a perfect player's score minus eleven. That is the trail getting harder at its ninth stop, on purpose, and it is also the first thing a reviewer should decide whether they believe. Wind is a crosswind the whole way, alternating sides hole to hole (88/272/95/268/100/262/84/278/92/265), so every tee is an aim-off read and none is a loft read; the strength is medium on the even holes and hard on the odd, with the one gale on the 153m bomber. Four greens carry a wet approach (holes 1, 3, 5, 7), which is the \"held back is wet\" half of the mechanic."
+        },
+        {
+          "id": "p10",
+          "week": 10,
+          "status": "live",
+          "scenery": "reef",
+          "world": "The Outer Reef",
+          "title": "The Long Carry",
+          "mechanic": "Four holes over a hundred and thirty metres with nothing between the tee and the pin but open water, so the only defence is the length itself, and a throw held back is a stroke given away before the disc has landed.",
+          "intro": "Further out than last time. The bottom drops away and so does any excuse.",
+          "packPar": 19,
+          "target": 20,
+          "elite": 15,
+          "contentRevision": 1,
+          "demand": 1.35,
+          "holes": [
+            {
+              "n": 1,
+              "seed": "long-round#p10#h1ab",
+              "name": "Low Tide",
+              "par": 1,
+              "brief": "pocket",
+              "wind": {
+                "band": "medium",
+                "mph": 14,
+                "from": 10
+              },
+              "beat": "Sand still wet. Coral ringing the pin like a fence.",
+              "certified": "ideal 3/1 calm · 2 in 14mph · 55m · 6-prop collar r8.1 · 15 behind · 11 guarding"
+            },
+            {
+              "n": 2,
+              "seed": "long-round#p10#h2m",
+              "name": "The First Drop",
+              "par": 2,
+              "brief": "bomber",
+              "wind": {
+                "band": "medium",
+                "mph": 15,
+                "from": 140
+              },
+              "beat": "The shelf ends. A hundred and thirty-six metres of open water to the next thing that will hold a disc.",
+              "certified": "ideal 3/2 calm · 3 in 15mph · 136m · 136m · 8 behind · 0 guarding"
+            },
+            {
+              "n": 3,
+              "seed": "long-round#p10#h3at",
+              "name": "The Sandbar",
+              "par": 1,
+              "brief": "ridge",
+              "wind": {
+                "band": "medium",
+                "mph": 13,
+                "from": 40
+              },
+              "beat": "Over a bar of sand the last wave built.",
+              "certified": "ideal 2/1 calm · 3 in 13mph · 49m · berm 15.2m · 11 behind · 14 guarding"
+            },
+            {
+              "n": 4,
+              "seed": "long-round#p10#h4av",
+              "name": "The Second Drop",
+              "par": 2,
+              "brief": "bomber",
+              "wind": {
+                "band": "hard",
+                "mph": 22,
+                "from": 215
+              },
+              "beat": "Same distance. Harder wind, off the left shoulder now.",
+              "certified": "ideal 3/2 calm · 3 in 22mph · 136m · 136m · 6 behind · 0 guarding"
+            },
+            {
+              "n": 5,
+              "seed": "long-round#p10#h5g",
+              "name": "Round the Head",
+              "par": 2,
+              "brief": "bend",
+              "wind": {
+                "band": "medium",
+                "mph": 14,
+                "from": 320
+              },
+              "beat": "The reef bends and the fairway bends with it. Nothing straight for a hundred metres.",
+              "certified": "ideal 2/2 calm · 2 in 14mph · 107m · dogleg 1.00 · 11 behind · 10 guarding"
+            },
+            {
+              "n": 6,
+              "seed": "long-round#p10#h6k",
+              "name": "Deep Channel",
+              "par": 3,
+              "brief": "bomber",
+              "wind": {
+                "band": "hard",
+                "mph": 23,
+                "from": 150
+              },
+              "beat": "Where the bottom goes dark.",
+              "certified": "ideal 3/3 calm · 3 in 23mph · 144m · 144m · 10 behind · 0 guarding"
+            },
+            {
+              "n": 7,
+              "seed": "long-round#p10#h7au",
+              "name": "The Tide Pool",
+              "par": 1,
+              "brief": "island",
+              "wind": {
+                "band": "medium",
+                "mph": 13,
+                "from": 45
+              },
+              "beat": "Short. Wet all the way round, and short of it too.",
+              "certified": "ideal 3/1 calm · 3 in 13mph · 36m · moat 6.7m wide · 6 behind · water 8m long · 3 guarding · wet approach"
+            },
+            {
+              "n": 8,
+              "seed": "long-round#p10#h8ag",
+              "name": "The Far Bar",
+              "par": 2,
+              "brief": "ridge",
+              "wind": {
+                "band": "hard",
+                "mph": 21,
+                "from": 230
+              },
+              "beat": "A second bar, higher than the first, with the pin tucked in behind it.",
+              "certified": "ideal 2/2 calm · 3 in 21mph · 87m · berm 19.3m · 11 behind · 4 guarding"
+            },
+            {
+              "n": 9,
+              "seed": "long-round#p10#h9v",
+              "name": "The Long Carry",
+              "par": 3,
+              "brief": "bomber",
+              "wind": {
+                "band": "gale",
+                "mph": 27,
+                "from": 130
+              },
+              "beat": "One hundred and sixty-eight metres. The gale off the sea has been building for two holes and it is here now.",
+              "certified": "ideal 3/3 calm · 3 in 27mph · 168m · 168m · 10 behind · 0 guarding"
+            },
+            {
+              "n": 10,
+              "seed": "long-round#p10#h10p",
+              "name": "Back to the Shelf",
+              "par": 2,
+              "brief": "bend",
+              "wind": {
+                "band": "hard",
+                "mph": 22,
+                "from": 310
+              },
+              "beat": "The reef comes back up. Turn once and you are on it.",
+              "certified": "ideal 3/2 calm · 4 in 22mph · 112m · dogleg 1.00 · 4 behind · 10 guarding"
+            }
+          ],
+          "$curation": "Swept by the Swift Pack lab (scripts/sweep-pack --spec): 48 candidates per hole, demand 1.35, reef pinned, brief forced, certified in calm air AND under the authored wind, and DEFENDED both ways. Certification rates: pocket par 1 48/48, bomber par 2 12/48, ridge par 1 39/48, bomber par 2 19/48, bend par 2 19/48, bomber par 3 13/48, island par 1 48/48, ridge par 2 26/48, bomber par 3 21/48, bend par 2 17/48. REEF IS THE SECOND EVERYDAY SCENERY THAT DEFENDS A BOMBER (scout: 12/32 at every par, the rejections all undefended), after jungle, and it is why this pack exists: four bombers on one card has not been possible on any ground the trail has used. Every bomber winner reports 0 guarding, which is what a bomber is -- the defence is the carry, and the sweep certifies them as defended on the water and cover behind the pin, not on a collar. Hole 8's fourth runner-up carried an IDEAL BEATS PAR warning and was not chosen; the winner does not. Holes 1 and 7 have runners-up the ideal plays a stroke better than the winner; the ranking preferred the more defended hole and this run kept the ranking, as the settled rule says. Space was scouted for this slot and found as narrow as desert -- pocket and island only, bend 3-9/32 failing story fit, ridge 1-7/32 and bomber 0-1/32 all undefended -- and is recorded here so the next run does not rediscover it. No gate was softened. Sweep date: 2026-09-06.",
+          "$tuning": "DISTANCE IS THE DEFENCE. Four bombers at 136, 136, 144 and 168m, and the ideal player takes 3 on every one of them in calm air whatever the par, so the two par-2 bombers (holes 2 and 4) are the holes that cost this pack its stars: par is a rung the perfect player does not reach. That is deliberate and it is the same shape as p5's hole 8 (ideal 5 on par 3), the last time reef was dealt. Ideal total 27 against packPar 19, a +8 gap, which sits with p1 and p5 and well under p9's +12 -- the trail steps up at nine and eases at ten rather than climbing twice. Star lines are computed (elite 15, target 20), not read off the harness. Wind bearings are quartering (10/140/40/215/320/150/45/230/130/310) rather than the pure crosswinds of p9, so half the reads are partly a loft read, and the gale is on the 168m hole 9 where it is the whole hole."
         }
       ]
     }
