@@ -1607,6 +1607,1712 @@
           "$tuning": "DISTANCE IS THE DEFENCE. Four bombers at 136, 136, 144 and 168m, and the ideal player takes 3 on every one of them in calm air whatever the par, so the two par-2 bombers (holes 2 and 4) are the holes that cost this pack its stars: par is a rung the perfect player does not reach. That is deliberate and it is the same shape as p5's hole 8 (ideal 5 on par 3), the last time reef was dealt. Ideal total 27 against packPar 19, a +8 gap, which sits with p1 and p5 and well under p9's +12 -- the trail steps up at nine and eases at ten rather than climbing twice. Star lines are computed (elite 15, target 20), not read off the harness. Wind bearings are quartering (10/140/40/215/320/150/45/230/130/310) rather than the pure crosswinds of p9, so half the reads are partly a loft read, and the gale is on the 168m hole 9 where it is the whole hole."
         }
       ]
+    },
+    {
+      "id": "higher",
+      "title": "The Higher Round",
+      "subtitle": "The first disc never came down, and now you know why: something up there catches. Ten worlds hang in its wake, and at the end of them a light has been left on.",
+      "packs": [
+        {
+          "id": "p11",
+          "week": 11,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "space",
+          "world": "Kepler Rim",
+          "title": "Escape Velocity",
+          "mechanic": "The hop — worlds separated by void; only what lands dead stays on one, and the void keeps the rest.",
+          "intro": "The first disc never came down. Out here you find out why: there is no ground between the worlds, only the next one.",
+          "packPar": 17,
+          "target": 18,
+          "elite": 13,
+          "contentRevision": 1,
+          "demand": 1,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w1#h1n",
+              "name": "The First Void",
+              "par": 1,
+              "worlds": 2,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "medium",
+                "mph": 5,
+                "from": 180
+              },
+              "certified": "certified under medium 5mph from 180° · letter `n` · best skip stays 0/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w1#h2t",
+              "name": "Two Worlds",
+              "par": 1,
+              "worlds": 2,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "medium",
+                "mph": 11,
+                "from": 285
+              },
+              "certified": "certified under medium 11mph from 285° · letter `t` · best skip stays 0/10"
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w1#h3s",
+              "name": "Stepping Stones",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "medium",
+                "mph": 8,
+                "from": 210
+              },
+              "certified": "certified under medium 8mph from 210° · letter `s` · best skip stays 4/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w1#h4o",
+              "name": "The Near Side",
+              "par": 1,
+              "worlds": 2,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "gale",
+                "mph": 22,
+                "from": 195
+              },
+              "certified": "certified under gale 22mph from 195° · letter `o` · best skip stays 0/10"
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w1#h5v",
+              "name": "Three Lights",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "hard",
+                "mph": 13,
+                "from": 240
+              },
+              "certified": "certified under hard 13mph from 240° · letter `v` · best skip stays 3/10"
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w1#h6a",
+              "name": "Orbit",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 345
+              },
+              "certified": "certified under hard 14mph from 345° · letter `a` · best skip stays 3/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w1#h7c",
+              "name": "The Long Hop",
+              "par": 1,
+              "worlds": 2,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "gale",
+                "mph": 23,
+                "from": 150
+              },
+              "certified": "certified under gale 23mph from 150° · letter `c` · best skip stays 0/10"
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w1#h8u",
+              "name": "Wake",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "medium",
+                "mph": 9,
+                "from": 15
+              },
+              "certified": "certified under medium 9mph from 15° · letter `u` · best skip stays 3/10"
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w1#h9r",
+              "name": "Drift",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "hard",
+                "mph": 18,
+                "from": 300
+              },
+              "certified": "certified under hard 18mph from 300° · letter `r` · best skip stays 4/10"
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w1#h10c",
+              "name": "Worlds Apart",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w1",
+              "wind": {
+                "band": "hard",
+                "mph": 15,
+                "from": 330
+              },
+              "certified": "certified under hard 15mph from 330° · letter `c` · best skip stays 4/10"
+            }
+          ],
+          "$curation": "Worlds pack w1, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        },
+        {
+          "id": "p12",
+          "week": 12,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "beach",
+          "world": "The Skerries",
+          "title": "The Climb",
+          "mechanic": "Every world stands higher than the last — a hop is also a climb, and a throw that would carry on the flat buries in the next stack's face.",
+          "intro": "Sea stacks in a cold sea, each taller than the one before. You are going up, and the water is not.",
+          "packPar": 21,
+          "target": 22,
+          "elite": 17,
+          "contentRevision": 1,
+          "demand": 1,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w2#h1j",
+              "name": "First Stack",
+              "par": 1,
+              "worlds": 2,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "hard",
+                "mph": 15,
+                "from": 135
+              },
+              "certified": "certified under hard 15mph from 135° · letter `j` · best skip stays 0/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w2#h2c",
+              "name": "The Ladder",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "gale",
+                "mph": 21,
+                "from": 90
+              },
+              "certified": "certified under gale 21mph from 90° · letter `c` · best skip stays 1/10",
+              "demand": 0.96
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w2#h3c",
+              "name": "Gull Rock",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "medium",
+                "mph": 10,
+                "from": 165
+              },
+              "certified": "certified under medium 10mph from 165° · letter `c` · best skip stays 0/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w2#h4w",
+              "name": "The Step",
+              "par": 1,
+              "worlds": 2,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 240
+              },
+              "certified": "certified under hard 14mph from 240° · letter `w` · best skip stays 0/10"
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w2#h5q",
+              "name": "Three Stacks",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "hard",
+                "mph": 11,
+                "from": 195
+              },
+              "certified": "certified under hard 11mph from 195° · letter `q` · best skip stays 3/10"
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w2#h6n",
+              "name": "High Water",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "hard",
+                "mph": 15,
+                "from": 150
+              },
+              "certified": "certified under hard 15mph from 150° · letter `n` · best skip stays 2/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w2#h7c",
+              "name": "The Overhang",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "medium",
+                "mph": 8,
+                "from": 345
+              },
+              "certified": "certified under medium 8mph from 345° · letter `c` · best skip stays 3/10",
+              "demand": 1.28
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w2#h8x",
+              "name": "Spray",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "hard",
+                "mph": 18,
+                "from": 60
+              },
+              "certified": "certified under hard 18mph from 60° · letter `x` · best skip stays 2/10",
+              "demand": 1.24
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w2#h9l",
+              "name": "The Stair",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "gale",
+                "mph": 22,
+                "from": 135
+              },
+              "certified": "certified under gale 22mph from 135° · letter `l` · best skip stays 4/10"
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w2#h10",
+              "name": "Summit",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w2",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 315
+              },
+              "certified": "certified under hard 14mph from 315° · letter `_` · best skip stays 2/10",
+              "demand": 1.3
+            }
+          ],
+          "$curation": "Worlds pack w2, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        },
+        {
+          "id": "p13",
+          "week": 13,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "jungle",
+          "world": "The Canopy",
+          "title": "Soft Landings",
+          "mechanic": "Worlds are tree crowns — domed, so anything off-centre rolls to the edge and over. Land dead in the middle or land in the fog.",
+          "intro": "Above the jungle now, crown to crown. The fog is where the ground should be. The middle of a tree is small.",
+          "packPar": 22,
+          "target": 23,
+          "elite": 18,
+          "contentRevision": 1,
+          "demand": 1,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w3#h1h",
+              "name": "The Crowns",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 90
+              },
+              "certified": "certified under hard 10mph from 90° · letter `h` · best skip stays 4/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w3#h2i",
+              "name": "One Tree Over",
+              "par": 1,
+              "worlds": 2,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "gale",
+                "mph": 25,
+                "from": 15
+              },
+              "certified": "certified under gale 25mph from 15° · letter `i` · best skip stays 0/10"
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w3#h3x",
+              "name": "Toucan Perch",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 180
+              },
+              "certified": "certified under hard 10mph from 180° · letter `x` · best skip stays 4/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w3#h4g",
+              "name": "Fog Floor",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 345
+              },
+              "certified": "certified under hard 14mph from 345° · letter `g` · best skip stays 2/10",
+              "demand": 1.02
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w3#h5n",
+              "name": "Four Crowns",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "medium",
+                "mph": 6,
+                "from": 150
+              },
+              "certified": "certified under medium 6mph from 150° · letter `n` · best skip stays 2/10"
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w3#h6a",
+              "name": "The Vine",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "gale",
+                "mph": 26,
+                "from": 195
+              },
+              "certified": "certified under gale 26mph from 195° · letter `a` · best skip stays 3/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w3#h7i",
+              "name": "Big Leaf",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "hard",
+                "mph": 12,
+                "from": 240
+              },
+              "certified": "certified under hard 12mph from 240° · letter `i` · best skip stays 2/10"
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w3#h8b",
+              "name": "Rolling Off",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "hard",
+                "mph": 17,
+                "from": 285
+              },
+              "certified": "certified under hard 17mph from 285° · letter `b` · best skip stays 4/10"
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w3#h9h",
+              "name": "The Old Tree",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "hard",
+                "mph": 13,
+                "from": 330
+              },
+              "certified": "certified under hard 13mph from 330° · letter `h` · best skip stays 4/10",
+              "demand": 1.02
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w3#h10t",
+              "name": "Canopy Walk",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w3",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 300
+              },
+              "certified": "certified under hard 14mph from 300° · letter `t` · best skip stays 4/10",
+              "demand": 1.02
+            }
+          ],
+          "$curation": "Worlds pack w3, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        },
+        {
+          "id": "p14",
+          "week": 14,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "arctic",
+          "world": "Floe Nine",
+          "title": "Dead Stop",
+          "mechanic": "Ice. The floes are wide and flat and nothing stops on them — a skid runs twice as far, so only the flop stays where it lands.",
+          "intro": "Broken sea ice, wide as a fairway and slick as glass. The water between is the only thing that stops a disc.",
+          "packPar": 23,
+          "target": 24,
+          "elite": 19,
+          "contentRevision": 1,
+          "demand": 1.15,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w4#h1g",
+              "name": "First Ice",
+              "par": 1,
+              "worlds": 2,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "hard",
+                "mph": 11,
+                "from": 165
+              },
+              "certified": "certified under hard 11mph from 165° · letter `g` · best skip stays 0/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w4#h2q",
+              "name": "Two Floes",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "gale",
+                "mph": 26,
+                "from": 180
+              },
+              "certified": "certified under gale 26mph from 180° · letter `q` · best skip stays 2/10"
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w4#h3n",
+              "name": "The Slide",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "hard",
+                "mph": 17,
+                "from": 255
+              },
+              "certified": "certified under hard 17mph from 255° · letter `n` · best skip stays 3/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w4#h4h",
+              "name": "Pack Ice",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "hard",
+                "mph": 15,
+                "from": 30
+              },
+              "certified": "certified under hard 15mph from 30° · letter `h` · best skip stays 2/10"
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w4#h5a",
+              "name": "Seal Rock",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 345
+              },
+              "certified": "certified under hard 14mph from 345° · letter `a` · best skip stays 3/10"
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w4#h6f",
+              "name": "Black Water",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "medium",
+                "mph": 9,
+                "from": 240
+              },
+              "certified": "certified under medium 9mph from 240° · letter `f` · best skip stays 4/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w4#h7m",
+              "name": "Four Floes",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "medium",
+                "mph": 8,
+                "from": 75
+              },
+              "certified": "certified under medium 8mph from 75° · letter `m` · best skip stays 4/10"
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w4#h8g",
+              "name": "Thin Ice",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "gale",
+                "mph": 24,
+                "from": 210
+              },
+              "certified": "certified under gale 24mph from 210° · letter `g` · best skip stays 3/10"
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w4#h9d",
+              "name": "The Lead",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "hard",
+                "mph": 12,
+                "from": 285
+              },
+              "certified": "certified under hard 12mph from 285° · letter `d` · best skip stays 4/10",
+              "demand": 1.21
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w4#h10p",
+              "name": "Floe Nine",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w4",
+              "wind": {
+                "band": "hard",
+                "mph": 17,
+                "from": 165
+              },
+              "certified": "certified under hard 17mph from 165° · letter `p` · best skip stays 3/10"
+            }
+          ],
+          "$curation": "Worlds pack w4, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        },
+        {
+          "id": "p15",
+          "week": 15,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "city",
+          "world": "The Rooftops",
+          "title": "Parapets",
+          "mechanic": "Roofs, not discs — square worlds at stepped heights with a lip at every edge and the street seven storeys down. The gaps are short and the landings are boxes.",
+          "intro": "It went over the city. You follow it roof to roof, and the ground is a long way down.",
+          "packPar": 25,
+          "target": 26,
+          "elite": 21,
+          "contentRevision": 1,
+          "demand": 1.15,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w5#h1h",
+              "name": "Fire Escape",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "medium",
+                "mph": 9,
+                "from": 0
+              },
+              "certified": "certified under medium 9mph from 0° · letter `h` · best skip stays 4/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w5#h2k",
+              "name": "Two Roofs",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "hard",
+                "mph": 15,
+                "from": 225
+              },
+              "certified": "certified under hard 15mph from 225° · letter `k` · best skip stays 2/10"
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w5#h3t",
+              "name": "The Alley",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "gale",
+                "mph": 21,
+                "from": 150
+              },
+              "certified": "certified under gale 21mph from 150° · letter `t` · best skip stays 3/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w5#h4r",
+              "name": "Water Tower",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "hard",
+                "mph": 16,
+                "from": 255
+              },
+              "certified": "certified under hard 16mph from 255° · letter `r` · best skip stays 3/10"
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w5#h5j",
+              "name": "Up a Storey",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "medium",
+                "mph": 9,
+                "from": 60
+              },
+              "certified": "certified under medium 9mph from 60° · letter `j` · best skip stays 4/10"
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w5#h6u",
+              "name": "Down a Storey",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "gale",
+                "mph": 22,
+                "from": 165
+              },
+              "certified": "certified under gale 22mph from 165° · letter `u` · best skip stays 2/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w5#h7q",
+              "name": "The Block",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 210
+              },
+              "certified": "certified under hard 10mph from 210° · letter `q` · best skip stays 3/10"
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w5#h8g",
+              "name": "Skylight",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "hard",
+                "mph": 15,
+                "from": 315
+              },
+              "certified": "certified under hard 15mph from 315° · letter `g` · best skip stays 4/10"
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w5#h9",
+              "name": "Ledge",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "medium",
+                "mph": 11,
+                "from": 0
+              },
+              "certified": "certified under medium 11mph from 0° · letter `_` · best skip stays 4/10"
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w5#h10",
+              "name": "Rooftop Run",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w5",
+              "wind": {
+                "band": "hard",
+                "mph": 17,
+                "from": 150
+              },
+              "certified": "certified under hard 17mph from 150° · letter `_` · best skip stays 3/10"
+            }
+          ],
+          "$curation": "Worlds pack w5, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        },
+        {
+          "id": "p16",
+          "week": 16,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "volcano",
+          "world": "Cinder Isles",
+          "title": "Cracked Ground",
+          "mechanic": "Basalt platforms in a lava field — and every mid world has a bite out of it. The landing is a crescent, not a circle.",
+          "intro": "The ground here is broken and the cracks glow — whatever you land on, part of it is missing.",
+          "packPar": 26,
+          "target": 27,
+          "elite": 22,
+          "contentRevision": 1,
+          "demand": 1.15,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w6#h1h",
+              "name": "First Crust",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "medium",
+                "mph": 8,
+                "from": 315
+              },
+              "certified": "certified under medium 8mph from 315° · letter `h` · best skip stays 2/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w6#h2q",
+              "name": "The Bite",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 270
+              },
+              "certified": "certified under hard 14mph from 270° · letter `q` · best skip stays 4/10"
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w6#h3v",
+              "name": "Crescent",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "gale",
+                "mph": 21,
+                "from": 225
+              },
+              "certified": "certified under gale 21mph from 225° · letter `v` · best skip stays 2/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w6#h4h",
+              "name": "Steam",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "hard",
+                "mph": 12,
+                "from": 300
+              },
+              "certified": "certified under hard 12mph from 300° · letter `h` · best skip stays 2/10"
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w6#h5k",
+              "name": "Cinder Row",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 135
+              },
+              "certified": "certified under hard 14mph from 135° · letter `k` · best skip stays 2/10"
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w6#h6i",
+              "name": "Black Glass",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "medium",
+                "mph": 5,
+                "from": 90
+              },
+              "certified": "certified under medium 5mph from 90° · letter `i` · best skip stays 3/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w6#h7h",
+              "name": "The Notch",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 165
+              },
+              "certified": "certified under hard 14mph from 165° · letter `h` · best skip stays 2/10"
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w6#h8u",
+              "name": "Ember",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "hard",
+                "mph": 11,
+                "from": 120
+              },
+              "certified": "certified under hard 11mph from 120° · letter `u` · best skip stays 3/10"
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w6#h9f",
+              "name": "Half Moon",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "medium",
+                "mph": 8,
+                "from": 315
+              },
+              "certified": "certified under medium 8mph from 315° · letter `f` · best skip stays 4/10"
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w6#h10u",
+              "name": "Cracked Ground",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w6",
+              "wind": {
+                "band": "gale",
+                "mph": 22,
+                "from": 255
+              },
+              "certified": "certified under gale 22mph from 255° · letter `u` · best skip stays 3/10"
+            }
+          ],
+          "$curation": "Worlds pack w6, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        },
+        {
+          "id": "p17",
+          "week": 17,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "park",
+          "world": "The Sky Gardens",
+          "title": "Gale Between",
+          "mechanic": "Floating gardens over cloud, and the wind between them is the pack — two gales a half, and nothing between the worlds to shelter behind.",
+          "intro": "Gardens in the sky, still green, still tended by nobody. The wind up here has nothing in its way.",
+          "packPar": 27,
+          "target": 28,
+          "elite": 23,
+          "contentRevision": 1,
+          "demand": 1.15,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w7#h1w",
+              "name": "First Garden",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "hard",
+                "mph": 13,
+                "from": 150
+              },
+              "certified": "certified under hard 13mph from 150° · letter `w` · best skip stays 3/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w7#h2m",
+              "name": "Crosswind",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "gale",
+                "mph": 25,
+                "from": 315
+              },
+              "certified": "certified under gale 25mph from 315° · letter `m` · best skip stays 3/10"
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w7#h3i",
+              "name": "The Terrace",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "hard",
+                "mph": 11,
+                "from": 0
+              },
+              "certified": "certified under hard 11mph from 0° · letter `i` · best skip stays 3/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w7#h4l",
+              "name": "Four Gardens",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "hard",
+                "mph": 13,
+                "from": 285
+              },
+              "certified": "certified under hard 13mph from 285° · letter `l` · best skip stays 4/10"
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w7#h5g",
+              "name": "Headwind",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "gale",
+                "mph": 22,
+                "from": 330
+              },
+              "certified": "certified under gale 22mph from 330° · letter `g` · best skip stays 4/10"
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w7#h6s",
+              "name": "Hedge",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "medium",
+                "mph": 6,
+                "from": 135
+              },
+              "certified": "certified under medium 6mph from 135° · letter `s` · best skip stays 3/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w7#h7n",
+              "name": "Tailwind",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "gale",
+                "mph": 22,
+                "from": 300
+              },
+              "certified": "certified under gale 22mph from 300° · letter `n` · best skip stays 3/10"
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w7#h8r",
+              "name": "The Fountain",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "hard",
+                "mph": 17,
+                "from": 345
+              },
+              "certified": "certified under hard 17mph from 345° · letter `r` · best skip stays 3/10"
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w7#h9d",
+              "name": "Five Gardens",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "hard",
+                "mph": 18,
+                "from": 270
+              },
+              "certified": "certified under hard 18mph from 270° · letter `d` · best skip stays 4/10"
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w7#h10p",
+              "name": "Gale Between",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w7",
+              "wind": {
+                "band": "gale",
+                "mph": 23,
+                "from": 240
+              },
+              "certified": "certified under gale 23mph from 240° · letter `p` · best skip stays 4/10"
+            }
+          ],
+          "$curation": "Worlds pack w7, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        },
+        {
+          "id": "p18",
+          "week": 18,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "reef",
+          "world": "The Trench",
+          "title": "Pinnacles",
+          "mechanic": "Coral pinnacles out of a deep trench — long chains of small worlds. Five hops, none of them wide, and the trench takes anything long.",
+          "intro": "Down, then. The pinnacles are the only things standing out of the trench, and they are not big.",
+          "packPar": 28,
+          "target": 29,
+          "elite": 24,
+          "contentRevision": 2,
+          "demand": 1.3,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w8#h1k",
+              "name": "First Pinnacle",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "medium",
+                "mph": 6,
+                "from": 225
+              },
+              "certified": "certified under medium 6mph from 225° · letter `k` · best skip stays 2/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w8#h2m",
+              "name": "The Shelf",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "medium",
+                "mph": 11,
+                "from": 0
+              },
+              "certified": "certified under medium 11mph from 0° · letter `m` · best skip stays 4/10"
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w8#h3g",
+              "name": "Kelp Line",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 315
+              },
+              "certified": "certified under hard 10mph from 315° · letter `g` · best skip stays 3/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w8#h4m",
+              "name": "Brain Coral",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "gale",
+                "mph": 22,
+                "from": 90
+              },
+              "certified": "certified under gale 22mph from 90° · letter `m` · best skip stays 2/10"
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w8#h5t",
+              "name": "Five Spires",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 165
+              },
+              "certified": "certified under hard 10mph from 165° · letter `t` · best skip stays 4/10",
+              "demand": 1.28
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w8#h6i",
+              "name": "The Fan",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "medium",
+                "mph": 7,
+                "from": 300
+              },
+              "certified": "certified under medium 7mph from 300° · letter `i` · best skip stays 2/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w8#h7j",
+              "name": "Bubble Vent",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 135
+              },
+              "certified": "certified under hard 10mph from 135° · letter `j` · best skip stays 4/10"
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w8#h8x",
+              "name": "Deep Cut",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "hard",
+                "mph": 12,
+                "from": 270
+              },
+              "certified": "certified under hard 12mph from 270° · letter `x` · best skip stays 4/10"
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w8#h9n",
+              "name": "The Arch",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "hard",
+                "mph": 17,
+                "from": 225
+              },
+              "certified": "certified under hard 17mph from 225° · letter `n` · best skip stays 4/10"
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w8#h10t",
+              "name": "The Trench",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w8",
+              "wind": {
+                "band": "gale",
+                "mph": 25,
+                "from": 345
+              },
+              "certified": "certified under gale 25mph from 345° · letter `t` · best skip stays 4/10"
+            }
+          ],
+          "$curation": "Worlds pack w8, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        },
+        {
+          "id": "p19",
+          "week": 19,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "space",
+          "world": "The Belt",
+          "title": "Rough Ground",
+          "mechanic": "Asteroids, not planets — lumpy tops that roll a disc, and rock hanging in the gaps that a flat throw hits. Go over, land soft.",
+          "intro": "The belt. Nothing here is round. Nothing here is flat. Half of it is in the way.",
+          "packPar": 28,
+          "target": 29,
+          "elite": 24,
+          "contentRevision": 1,
+          "demand": 1.3,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w9#h1f",
+              "name": "First Rock",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "medium",
+                "mph": 9,
+                "from": 300
+              },
+              "certified": "certified under medium 9mph from 300° · letter `f` · best skip stays 4/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w9#h2i",
+              "name": "The Tumble",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "hard",
+                "mph": 18,
+                "from": 285
+              },
+              "certified": "certified under hard 18mph from 285° · letter `i` · best skip stays 4/10"
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w9#h3",
+              "name": "Ore",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 210
+              },
+              "certified": "certified under hard 10mph from 210° · letter `_` · best skip stays 2/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w9#h4j",
+              "name": "Over the Cluster",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "medium",
+                "mph": 10,
+                "from": 75
+              },
+              "certified": "certified under medium 10mph from 75° · letter `j` · best skip stays 4/10"
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w9#h5s",
+              "name": "Two Big Ones",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "gale",
+                "mph": 19,
+                "from": 0
+              },
+              "certified": "certified under gale 19mph from 0° · letter `s` · best skip stays 3/10"
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w9#h6d",
+              "name": "Five Rocks",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "medium",
+                "mph": 8,
+                "from": 225
+              },
+              "certified": "certified under medium 8mph from 225° · letter `d` · best skip stays 4/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w9#h7d",
+              "name": "The Rocket",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 150
+              },
+              "certified": "certified under hard 10mph from 150° · letter `d` · best skip stays 3/10"
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w9#h8v",
+              "name": "Rubble",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "gale",
+                "mph": 25,
+                "from": 135
+              },
+              "certified": "certified under gale 25mph from 135° · letter `v` · best skip stays 4/10"
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w9#h9n",
+              "name": "Long Dark",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "hard",
+                "mph": 12,
+                "from": 180
+              },
+              "certified": "certified under hard 12mph from 180° · letter `n` · best skip stays 3/10"
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w9#h10h",
+              "name": "The Belt",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w9",
+              "wind": {
+                "band": "hard",
+                "mph": 16,
+                "from": 90
+              },
+              "certified": "certified under hard 16mph from 90° · letter `h` · best skip stays 4/10"
+            }
+          ],
+          "$curation": "Worlds pack w9, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        },
+        {
+          "id": "p20",
+          "week": 20,
+          "status": "live",
+          "minAppBuild": 46,
+          "scenery": "space",
+          "world": "Home Orbit",
+          "title": "The Light Ahead",
+          "mechanic": "Everything the trail taught, and the basket on the last world is the home base itself — every hole. Beat the pack and the base is yours.",
+          "intro": "A light has been left on. Ten holes. Every one of them ends at the door.",
+          "packPar": 28,
+          "target": 29,
+          "elite": 24,
+          "contentRevision": 1,
+          "demand": 1.3,
+          "holes": [
+            {
+              "n": 1,
+              "kind": "worlds",
+              "seed": "worlds#w10#h1c",
+              "name": "Approach",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "hard",
+                "mph": 11,
+                "from": 90
+              },
+              "certified": "certified under hard 11mph from 90° · letter `c` · best skip stays 2/10"
+            },
+            {
+              "n": 2,
+              "kind": "worlds",
+              "seed": "worlds#w10#h2u",
+              "name": "The Beacon Line",
+              "par": 2,
+              "worlds": 3,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "gale",
+                "mph": 22,
+                "from": 255
+              },
+              "certified": "certified under gale 22mph from 255° · letter `u` · best skip stays 2/10"
+            },
+            {
+              "n": 3,
+              "kind": "worlds",
+              "seed": "worlds#w10#h3f",
+              "name": "Landing Legs",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 180
+              },
+              "certified": "certified under hard 10mph from 180° · letter `f` · best skip stays 2/10"
+            },
+            {
+              "n": 4,
+              "kind": "worlds",
+              "seed": "worlds#w10#h4n",
+              "name": "Light Ring",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "hard",
+                "mph": 14,
+                "from": 225
+              },
+              "certified": "certified under hard 14mph from 225° · letter `n` · best skip stays 3/10"
+            },
+            {
+              "n": 5,
+              "kind": "worlds",
+              "seed": "worlds#w10#h5q",
+              "name": "Dome",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "hard",
+                "mph": 18,
+                "from": 150
+              },
+              "certified": "certified under hard 18mph from 150° · letter `q` · best skip stays 4/10"
+            },
+            {
+              "n": 6,
+              "kind": "worlds",
+              "seed": "worlds#w10#h6b",
+              "name": "Five Worlds Home",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "gale",
+                "mph": 18,
+                "from": 75
+              },
+              "certified": "certified under gale 18mph from 75° · letter `b` · best skip stays 4/10"
+            },
+            {
+              "n": 7,
+              "kind": "worlds",
+              "seed": "worlds#w10#h7g",
+              "name": "The Mast",
+              "par": 3,
+              "worlds": 4,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "medium",
+                "mph": 8,
+                "from": 0
+              },
+              "certified": "certified under medium 8mph from 0° · letter `g` · best skip stays 4/10"
+            },
+            {
+              "n": 8,
+              "kind": "worlds",
+              "seed": "worlds#w10#h8r",
+              "name": "Door Open",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "hard",
+                "mph": 13,
+                "from": 285
+              },
+              "certified": "certified under hard 13mph from 285° · letter `r` · best skip stays 3/10"
+            },
+            {
+              "n": 9,
+              "kind": "worlds",
+              "seed": "worlds#w10#h9u",
+              "name": "Last Hop",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 90
+              },
+              "certified": "certified under hard 10mph from 90° · letter `u` · best skip stays 4/10"
+            },
+            {
+              "n": 10,
+              "kind": "worlds",
+              "seed": "worlds#w10#h10q",
+              "name": "Somebody's Home",
+              "par": 3,
+              "worlds": 5,
+              "worldsPack": "w10",
+              "wind": {
+                "band": "hard",
+                "mph": 10,
+                "from": 60
+              },
+              "certified": "certified under hard 10mph from 60° · letter `q` · best skip stays 3/10"
+            }
+          ],
+          "$curation": "Worlds pack w10, imported by scripts/worlds-to-levels.py from worlds.json + scripts/sweep-worlds/windy-bake.md. Seeds are the windy bake's highest-fit certified candidate at the shipped world-top friction; pars follow the chain (min(worlds+1,5), relabelled -2) and are not free numbers; star lines are LevelStarLines, never the design's provisional target/elite. Every hole certifies under its own authored wind."
+        }
+      ]
     }
   ]
 }
